@@ -1,0 +1,71 @@
+The second word of the sentence '@realDonaldTrump: #HillaryClinton may be the most corrupt person ever to seek the presidency of the United States.' is :
+Reading POS tagger model from edu/stanford/nlp/models/pos-tagger/english-left3words/english-left3words-distsim.tagger ... done [1.1 sec].
+The third lemma of the sentence '@realDonaldTrump: #HillaryClinton may be the most corrupt person ever to seek the presidency of the United States.' is #hillaryclinton
+done [0.5 sec].
+The parse of the sentence '@realDonaldTrump: #HillaryClinton may be the most corrupt person ever to seek the presidency of the United States.' is (ROOT (FRAG (NP (NNP @realDonaldTrump)) (: :) (S (NP (NN #HillaryClinton)) (VP (MD may) (VP (VB be) (NP (NP (DT the) (ADJP (RBS most) (JJ corrupt)) (NN person)) (ADVP (RB ever)) (S (VP (TO to) (VP (VB seek) (NP (NP (DT the) (NN presidency)) (PP (IN of) (NP (DT the) (NNP United) (NNPS States))))))))))) (. .)))
+Loading clause searcher from edu/stanford/nlp/models/naturalli/clauseSearcherModel.ser.gz...done [0.92 seconds]
+The triplet extraction of the sentence '@realDonaldTrump: #HillaryClinton may be the most corrupt person ever to seek the presidency of the United States.' is [(#HillaryClinton,seek,presidency of United States,0.8958604934269169), (#HillaryClinton,seek,presidency,0.8958604934269169)]
+The second word of the sentence '@realDonaldTrump Man you are a god damn idiot with no business even being a janitor at the White House!' is Man
+The third lemma of the sentence '@realDonaldTrump Man you are a god damn idiot with no business even being a janitor at the White House!' is you
+The parse of the sentence '@realDonaldTrump Man you are a god damn idiot with no business even being a janitor at the White House!' is (ROOT (S (NP (NN @realDonaldTrump) (NN Man)) (NP (PRP you)) (VP (VBP are) (NP (NP (DT a) (NN god) (NN damn) (NN idiot)) (PP (IN with) (S (NP (DT no) (NN business)) (ADVP (RB even)) (VP (VBG being) (NP (NP (DT a) (NN janitor)) (PP (IN at) (NP (DT the) (NNP White) (NNP House))))))))) (. !)))
+The triplet extraction of the sentence '@realDonaldTrump Man you are a god damn idiot with no business even being a janitor at the White House!' is []
+The second word of the sentence 'Scotland voted to remain!' is voted
+The third lemma of the sentence 'Scotland voted to remain!' is to
+The parse of the sentence 'Scotland voted to remain!' is (ROOT (S (NP (NNP Scotland)) (VP (VBD voted) (S (VP (TO to) (VP (VB remain))))) (. !)))
+The triplet extraction of the sentence 'Scotland voted to remain!' is [(Scotland,voted,remain,1.0)]
+The second word of the sentence '#moron
+@realDonaldTrump @Jolena3 So many anti-Americans trolling our next President's tweets.' is @realDonaldTrump
+The third lemma of the sentence '#moron
+@realDonaldTrump @Jolena3 So many anti-Americans trolling our next President's tweets.' is @jolena3
+The parse of the sentence '#moron
+@realDonaldTrump @Jolena3 So many anti-Americans trolling our next President's tweets.' is (ROOT (NP (NP (NN #moron) (NN @realDonaldTrump) (NN @Jolena3)) (VP (ADVP (RB So) (NP (JJ many) (NNS anti-Americans))) (VBG trolling) (NP (NP (PRP$ our) (JJ next) (NNP President)) (POS 's) (NNS tweets))) (. .)))
+The triplet extraction of the sentence '#moron
+@realDonaldTrump @Jolena3 So many anti-Americans trolling our next President's tweets.' is [(#moron @realDonaldTrump @Jolena3,trolling,our next President tweets,1.0), (#moron @realDonaldTrump @Jolena3,trolling,our President tweets,1.0)]
+The second word of the sentence 'You can sense their nervousness rising.' is can
+The third lemma of the sentence 'You can sense their nervousness rising.' is sense
+The parse of the sentence 'You can sense their nervousness rising.' is (ROOT (S (NP (PRP You)) (VP (MD can) (VP (VB sense) (NP (NP (PRP$ their) (NN nervousness)) (VP (VBG rising))))) (. .)))
+The triplet extraction of the sentence 'You can sense their nervousness rising.' is [(You,can sense,their nervousness,1.0), (You,can sense,their nervousness rising,1.0)]
+The second word of the sentence '@realDonaldTrump I pray the cartels get ahold of you before the US elections.' is I
+The third lemma of the sentence '@realDonaldTrump I pray the cartels get ahold of you before the US elections.' is pray
+The parse of the sentence '@realDonaldTrump I pray the cartels get ahold of you before the US elections.' is (ROOT (S (NP (NN @realDonaldTrump) (CD I)) (VP (VBP pray) (SBAR (S (NP (DT the) (NNS cartels)) (VP (VBP get) (NP (NP (NN ahold)) (PP (IN of) (NP (PRP you)))) (PP (IN before) (NP (DT the) (NNP US) (NNS elections))))))) (. .)))
+The triplet extraction of the sentence '@realDonaldTrump I pray the cartels get ahold of you before the US elections.' is [(cartels,ahold of,you,0.6831246284816169), (cartels,get,ahold,1.0), (cartels,get ahold before,US elections,1.0), (cartels,get,ahold of you,1.0)]
+The second word of the sentence 'You are by far the most arrogant ignorant evil son of a bitch
+@realDonaldTrump @Jolena3 And we will have a President Trump working for the common man not Wall Street.' is are
+The third lemma of the sentence 'You are by far the most arrogant ignorant evil son of a bitch
+@realDonaldTrump @Jolena3 And we will have a President Trump working for the common man not Wall Street.' is by
+The parse of the sentence 'You are by far the most arrogant ignorant evil son of a bitch
+@realDonaldTrump @Jolena3 And we will have a President Trump working for the common man not Wall Street.' is (ROOT (S (S (NP (PRP You)) (VP (VBP are) (PP (IN by) (NP (NP (RB far) (DT the) (ADJP (RBS most) (JJ arrogant)) (ADJP (JJ ignorant) (JJ evil)) (NN son)) (PP (IN of) (NP (DT a) (NN bitch) (NN @realDonaldTrump) (NN @Jolena3))))))) (CC And) (S (NP (PRP we)) (VP (MD will) (VP (VB have) (NP (NP (DT a) (NNP President) (NNP Trump)) (VP (VBG working) (PP (IN for) (NP (DT the) (JJ common) (NN man))) (PP (RB not) (NP (NNP Wall) (NNP Street)))))))) (. .)))
+The triplet extraction of the sentence 'You are by far the most arrogant ignorant evil son of a bitch
+@realDonaldTrump @Jolena3 And we will have a President Trump working for the common man not Wall Street.' is [(You,are by,far arrogant evil son,1.0), (You,are by,arrogant evil son,1.0), (You,are by,most arrogant ignorant evil son,1.0), (You,are by,most arrogant evil son of bitch @realDonaldTrump @Jolena3,1.0), (You,are by,arrogant son of bitch @realDonaldTrump @Jolena3,1.0), (You,are by,most arrogant ignorant evil son of bitch @realDonaldTrump @Jolena3,1.0), (You,are by,far most arrogant son,1.0), (You,are by,far ignorant evil son,1.0), (You,are by,far most arrogant evil son of bitch @realDonaldTrump @Jolena3,1.0), (You,are by,son,1.0), (You,are by,far son,1.0), (You,are by,far most arrogant son of bitch @realDonaldTrump @Jolena3,1.0), (You,are by,far most arrogant evil son,1.0), (You,are by,ignorant evil son,1.0), (You,are by,far most arrogant ignorant evil son,1.0), (You,are by,arrogant ignorant evil son of bitch @realDonaldTrump @Jolena3,1.0), (You,are by,arrogant ignorant evil son,1.0), (You,are by,most arrogant evil son,1.0), (You,are by,far most arrogant ignorant evil son of bitch @realDonaldTrump @Jolena3,1.0), (You,are by,son of bitch @realDonaldTrump @Jolena3,1.0), (You,are by,most arrogant son,1.0), (You,are by,far evil son of bitch @realDonaldTrump @Jolena3,1.0), (You,are by,arrogant son,1.0), (You,are by,far evil son,1.0), (You,are by,far arrogant evil son of bitch @realDonaldTrump @Jolena3,1.0), (You,are by,far arrogant ignorant evil son,1.0), (You,are by,ignorant evil son of bitch @realDonaldTrump @Jolena3,1.0), (You,are by,most arrogant son of bitch @realDonaldTrump @Jolena3,1.0), (You,are by,evil son of bitch @realDonaldTrump @Jolena3,1.0), (You,are by,far arrogant ignorant evil son of bitch @realDonaldTrump @Jolena3,1.0), (You,are by,far arrogant son of bitch @realDonaldTrump @Jolena3,1.0), (You,are by,evil son,1.0), (You,are by,arrogant evil son of bitch @realDonaldTrump @Jolena3,1.0), (You,are by,far son of bitch @realDonaldTrump @Jolena3,1.0), (we,will have,President Trump,1.0), (You,are by,far arrogant son,1.0), (You,are by,far ignorant evil son of bitch @realDonaldTrump @Jolena3,1.0)]
+The second word of the sentence 'MAKE AMERICA GREAT AGSIN!' is AMERICA
+The third lemma of the sentence 'MAKE AMERICA GREAT AGSIN!' is great
+The parse of the sentence 'MAKE AMERICA GREAT AGSIN!' is (ROOT (S (VP (VB MAKE) (NP (NNP AMERICA) (JJ GREAT) (NN AGSIN))) (. !)))
+The triplet extraction of the sentence 'MAKE AMERICA GREAT AGSIN!' is []
+The second word of the sentence '@HillaryClinton Don't know how to say this, but Scotland liking you more than Trump does not mean Scotland likes you
+@HillaryClinton They should have thought of that before they crossed into our Country with no Passport or Visa.' is Do
+The third lemma of the sentence '@HillaryClinton Don't know how to say this, but Scotland liking you more than Trump does not mean Scotland likes you
+@HillaryClinton They should have thought of that before they crossed into our Country with no Passport or Visa.' is not
+The parse of the sentence '@HillaryClinton Don't know how to say this, but Scotland liking you more than Trump does not mean Scotland likes you
+@HillaryClinton They should have thought of that before they crossed into our Country with no Passport or Visa.' is (ROOT (S (S (NP (NNP @HillaryClinton)) (VP (VBP Do) (RB n't) (VP (VB know) (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (VB say) (NP (DT this))))))))) (, ,) (CC but) (S (NP (NP (NNP Scotland)) (VP (VBG liking) (S (NP (PRP you)) (ADJP (JJR more))) (SBAR (IN than) (S (NP (NNP Trump)) (VP (VBZ does) (RB not) (VP (VB mean) (NP (NNP Scotland)))))))) (VP (VBZ likes) (NP (PRP you)) (NP-TMP (NP (NNP @HillaryClinton)) (SBAR (S (NP (PRP They)) (VP (MD should) (VP (VB have) (VP (VBN thought) (PP (IN of) (NP (DT that))) (SBAR (IN before) (S (NP (PRP they)) (VP (VBD crossed) (PP (IN into) (NP (PRP$ our) (NN Country))) (PP (IN with) (NP (NP (DT no) (NN Passport)) (CC or) (NP (NNP Visa))))))))))))))) (. .)))
+The triplet extraction of the sentence '@HillaryClinton Don't know how to say this, but Scotland liking you more than Trump does not mean Scotland likes you
+@HillaryClinton They should have thought of that before they crossed into our Country with no Passport or Visa.' is [(Scotland,likes,you,1.0)]
+The second word of the sentence 'Price they pay breaking law
+@HillaryClinton: 44 years since #TitleIX passed, truer than ever: All stude*nts deserve equal opportunity, no matter their gender.' is they
+The third lemma of the sentence 'Price they pay breaking law
+@HillaryClinton: 44 years since #TitleIX passed, truer than ever: All stude*nts deserve equal opportunity, no matter their gender.' is pay
+The parse of the sentence 'Price they pay breaking law
+@HillaryClinton: 44 years since #TitleIX passed, truer than ever: All stude*nts deserve equal opportunity, no matter their gender.' is (ROOT (S (NP (NP (NN Price)) (SBAR (S (NP (PRP they)) (VP (VBP pay) (S (VP (VBG breaking) (NP (NP (NN law) (NN @HillaryClinton)) (: :) (NP (NP (CD 44) (NNS years)) (PP (IN since) (NP (NN #TitleIX))))))))))) (VP (VBD passed) (, ,) (S (ADJP (ADJP (JJR truer)) (PP (IN than) (NP (NP (RB ever)) (: :) (NP (DT All) (NN stude))))) (SBAR (X (SYM *)) (S (NP (NNS nts)) (VP (VBP deserve) (NP (NP (JJ equal) (NN opportunity)) (, ,) (NP (NP (DT no) (NN matter)) (NP (PRP$ their) (NN gender))))))))) (. .)))
+The triplet extraction of the sentence 'Price they pay breaking law
+@HillaryClinton: 44 years since #TitleIX passed, truer than ever: All stude*nts deserve equal opportunity, no matter their gender.' is []
+The second word of the sentence '@HillaryClinton Plz tell that BREXIT & TAKIN R COUNTRY BAC has NOTH 2DO WITH lil hands supporters BUT DEMS TAKIN R COUNTRY BAC FROM REPUBS
+@HillaryClinton I hear one of your super deligates is going to prison  ....' is Plz
+The third lemma of the sentence '@HillaryClinton Plz tell that BREXIT & TAKIN R COUNTRY BAC has NOTH 2DO WITH lil hands supporters BUT DEMS TAKIN R COUNTRY BAC FROM REPUBS
+@HillaryClinton I hear one of your super deligates is going to prison  ....' is tell
+The parse of the sentence '@HillaryClinton Plz tell that BREXIT & TAKIN R COUNTRY BAC has NOTH 2DO WITH lil hands supporters BUT DEMS TAKIN R COUNTRY BAC FROM REPUBS
+@HillaryClinton I hear one of your super deligates is going to prison  ....' is (ROOT (S (NP (NN @HillaryClinton) (NN Plz)) (VP (VBP tell) (SBAR (IN that) (S (NP (NP (NNP BREXIT) (CC &) (NNP TAKIN) (NNP R)) (SBAR (S (NP (NNP COUNTRY) (NNP BAC)) (VP (VBZ has) (NP (NNP NOTH) (NNP 2DO)) (PP (IN WITH) (NP (NN lil) (NNS hands) (NNS supporters))))))) (VP (VBP BUT) (NP (NP (NNS DEMS)) (SBAR (S (NP (NP (JJ TAKIN) (NN R) (NN COUNTRY) (NN BAC)) (PP (IN FROM) (NP (NP (NNS REPUBS) (NN @HillaryClinton)) (SBAR (S (NP (PRP I)) (VP (VBP hear) (NP (NP (CD one)) (PP (IN of) (NP (PRP$ your) (JJ super) (NNS deligates)))))))))) (VP (VBZ is) (VP (VBG going) (PP (TO to) (NP (NN prison)))))))))))) (: ...) (. .)))
+The triplet extraction of the sentence '@HillaryClinton Plz tell that BREXIT & TAKIN R COUNTRY BAC has NOTH 2DO WITH lil hands supporters BUT DEMS TAKIN R COUNTRY BAC FROM REPUBS
+@HillaryClinton I hear one of your super deligates is going to prison  ....' is [(R COUNTRY BAC,is going to,prison,1.0), (I,hear,one of your super deligates,1.0), (I,hear,one your deligates,1.0), (COUNTRY BAC,has,NOTH 2DO,1.0), (I,hear,one of your deligates,1.0), (TAKIN R COUNTRY BAC,is going to,prison,1.0), (COUNTRY BAC,has NOTH 2DO WITH,lil hands supporters,1.0), (I,hear,one your super deligates,1.0)]
+The second word of the sentence 'you're next!' is 're
+The third lemma of the sentence 'you're next!' is next
+The parse of the sentence 'you're next!' is (ROOT (S (NP (PRP you)) (VP (VBP 're) (ADJP (JJ next))) (. !)))
+The triplet extraction of the sentence 'you're next!' is [(you,'re,next,1.0)]

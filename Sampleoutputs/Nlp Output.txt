@@ -1,0 +1,3231 @@
+@realDonaldTrump-1
+Text Annotation
+@realDonaldTrump-1:@realDonaldTrump
+Lemma Annotation
+@realDonaldTrump-1:@realDonaldTrump
+POS
+@realDonaldTrump-1:NNP
+NER
+@realDonaldTrump-1:O
+
+
+
+
+:-2
+Text Annotation
+:-2::
+Lemma Annotation
+:-2::
+POS
+:-2::
+NER
+:-2:O
+
+
+
+
+#HillaryClinton-3
+Text Annotation
+#HillaryClinton-3:#HillaryClinton
+Lemma Annotation
+#HillaryClinton-3:#hillaryclinton
+POS
+#HillaryClinton-3:NN
+NER
+#HillaryClinton-3:O
+
+
+
+
+may-4
+Text Annotation
+may-4:may
+Lemma Annotation
+may-4:may
+POS
+may-4:MD
+NER
+may-4:O
+
+
+
+
+be-5
+Text Annotation
+be-5:be
+Lemma Annotation
+be-5:be
+POS
+be-5:VB
+NER
+be-5:O
+
+
+
+
+the-6
+Text Annotation
+the-6:the
+Lemma Annotation
+the-6:the
+POS
+the-6:DT
+NER
+the-6:O
+
+
+
+
+most-7
+Text Annotation
+most-7:most
+Lemma Annotation
+most-7:most
+POS
+most-7:RBS
+NER
+most-7:O
+
+
+
+
+corrupt-8
+Text Annotation
+corrupt-8:corrupt
+Lemma Annotation
+corrupt-8:corrupt
+POS
+corrupt-8:JJ
+NER
+corrupt-8:O
+
+
+
+
+person-9
+Text Annotation
+person-9:person
+Lemma Annotation
+person-9:person
+POS
+person-9:NN
+NER
+person-9:O
+
+
+
+
+ever-10
+Text Annotation
+ever-10:ever
+Lemma Annotation
+ever-10:ever
+POS
+ever-10:RB
+NER
+ever-10:O
+
+
+
+
+to-11
+Text Annotation
+to-11:to
+Lemma Annotation
+to-11:to
+POS
+to-11:TO
+NER
+to-11:O
+
+
+
+
+seek-12
+Text Annotation
+seek-12:seek
+Lemma Annotation
+seek-12:seek
+POS
+seek-12:VB
+NER
+seek-12:O
+
+
+
+
+the-13
+Text Annotation
+the-13:the
+Lemma Annotation
+the-13:the
+POS
+the-13:DT
+NER
+the-13:O
+
+
+
+
+presidency-14
+Text Annotation
+presidency-14:presidency
+Lemma Annotation
+presidency-14:presidency
+POS
+presidency-14:NN
+NER
+presidency-14:O
+
+
+
+
+of-15
+Text Annotation
+of-15:of
+Lemma Annotation
+of-15:of
+POS
+of-15:IN
+NER
+of-15:O
+
+
+
+
+the-16
+Text Annotation
+the-16:the
+Lemma Annotation
+the-16:the
+POS
+the-16:DT
+NER
+the-16:O
+
+
+
+
+United-17
+Text Annotation
+United-17:United
+Lemma Annotation
+United-17:United
+POS
+United-17:NNP
+NER
+United-17:LOCATION
+
+
+
+
+States-18
+Text Annotation
+States-18:States
+Lemma Annotation
+States-18:States
+POS
+States-18:NNPS
+NER
+States-18:LOCATION
+
+
+
+
+.-19
+Text Annotation
+.-19:.
+Lemma Annotation
+.-19:.
+POS
+.-19:.
+NER
+.-19:O
+
+
+
+(ROOT (FRAG (NP (NNP @realDonaldTrump)) (: :) (S (NP (NN #HillaryClinton)) (VP (MD may) (VP (VB be) (NP (NP (DT the) (ADJP (RBS most) (JJ corrupt)) (NN person)) (ADVP (RB ever)) (S (VP (TO to) (VP (VB seek) (NP (NP (DT the) (NN presidency)) (PP (IN of) (NP (DT the) (NNP United) (NNPS States))))))))))) (. .)))
+-> @realDonaldTrump/NNP (root)
+  -> :/: (punct)
+  -> person/NN (parataxis)
+    -> #HillaryClinton/NN (nsubj)
+    -> may/MD (aux)
+    -> be/VB (cop)
+    -> the/DT (det)
+    -> corrupt/JJ (amod)
+      -> most/RBS (advmod)
+    -> ever/RB (advmod)
+    -> seek/VB (acl)
+      -> to/TO (mark)
+      -> presidency/NN (dobj)
+        -> the/DT (det)
+        -> States/NNPS (nmod:of)
+          -> of/IN (case)
+          -> the/DT (det)
+          -> United/NNP (compound)
+  -> ./. (punct)
+
+[CHAIN1-["@realDonaldTrump" in sentence 1], CHAIN4-["the most corrupt person ever to seek the presidency of the United States" in sentence 1, "the presidency of the United States" in sentence 1, "the United States" in sentence 1, "I" in sentence 6, "US" in sentence 6, "I" in sentence 11], CHAIN5-["@realDonaldTrump Man" in sentence 2, "a god damn idiot with no business even being a janitor at the White House" in sentence 2], CHAIN6-["you" in sentence 2], CHAIN8-["no business" in sentence 2], CHAIN9-["a janitor at the White House" in sentence 2], CHAIN10-["the White House" in sentence 2], CHAIN11-["Scotland" in sentence 3, "Scotland liking you more than Trump does not mean Scotland" in sentence 9, "Scotland" in sentence 9], CHAIN12-["#moron @realDonaldTrump @Jolena3 So many anti-Americans trolling our next President 's tweets ." in sentence 4], CHAIN13-["many anti-Americans" in sentence 4], CHAIN14-["our next President 's tweets" in sentence 4, "their" in sentence 5], CHAIN15-["our next President" in sentence 4], CHAIN16-["our" in sentence 4, "we" in sentence 7, "our" in sentence 9], CHAIN17-["You" in sentence 5], CHAIN18-["their nervousness rising" in sentence 5], CHAIN22-["@realDonaldTrump I" in sentence 6], CHAIN23-["the cartels" in sentence 6], CHAIN24-["ahold of you" in sentence 6], CHAIN25-["you" in sentence 6], CHAIN26-["the US elections" in sentence 6], CHAIN27-["You" in sentence 7], CHAIN28-["far the most arrogant ignorant evil son of a bitch @realDonaldTrump @Jolena3" in sentence 7], CHAIN29-["a bitch @realDonaldTrump @Jolena3" in sentence 7], CHAIN31-["a President Trump working for the common man not Wall Street" in sentence 7, "Trump" in sentence 9], CHAIN32-["the common man" in sentence 7], CHAIN33-["Wall Street" in sentence 7], CHAIN34-["AMERICA GREAT AGSIN" in sentence 8], CHAIN37-["@HillaryClinton" in sentence 9, "@HillaryClinton They should have thought of that before they crossed into our Country with no Passport or Visa" in sentence 9], CHAIN38-["this" in sentence 9, "They" in sentence 9, "that" in sentence 9, "they" in sentence 9, "they" in sentence 10], CHAIN40-["you" in sentence 9], CHAIN41-["you" in sentence 9], CHAIN46-["our Country" in sentence 9], CHAIN48-["no Passport or Visa" in sentence 9], CHAIN49-["no Passport" in sentence 9], CHAIN50-["Visa" in sentence 9], CHAIN51-["Price they pay breaking law @HillaryClinton : 44 years since #TitleIX" in sentence 10], CHAIN53-["law @HillaryClinton : 44 years since #TitleIX" in sentence 10], CHAIN54-["44 years since #TitleIX" in sentence 10], CHAIN55-["ever : All stude" in sentence 10], CHAIN56-["nts" in sentence 10, "their" in sentence 10], CHAIN57-["no matter their gender" in sentence 10], CHAIN58-["their gender" in sentence 10], CHAIN60-["@HillaryClinton Plz" in sentence 11], CHAIN61-["BREXIT & TAKIN R COUNTRY BAC has NOTH 2DO WITH lil hands supporters" in sentence 11], CHAIN62-["COUNTRY BAC" in sentence 11], CHAIN63-["NOTH 2DO" in sentence 11], CHAIN64-["lil hands supporters" in sentence 11], CHAIN65-["DEMS TAKIN R COUNTRY BAC FROM REPUBS @HillaryClinton I hear one of your super deligates is going to prison" in sentence 11], CHAIN66-["REPUBS @HillaryClinton I hear one of your super deligates" in sentence 11], CHAIN68-["one of your super deligates" in sentence 11], CHAIN69-["BREXIT" in sentence 11], CHAIN70-["TAKIN" in sentence 11], CHAIN71-["you" in sentence 12]]
+
+@realDonaldTrump-1
+Text Annotation
+@realDonaldTrump-1:@realDonaldTrump
+Lemma Annotation
+@realDonaldTrump-1:@realdonaldtrump
+POS
+@realDonaldTrump-1:NN
+NER
+@realDonaldTrump-1:O
+
+
+
+
+Man-2
+Text Annotation
+Man-2:Man
+Lemma Annotation
+Man-2:man
+POS
+Man-2:NN
+NER
+Man-2:O
+
+
+
+
+you-3
+Text Annotation
+you-3:you
+Lemma Annotation
+you-3:you
+POS
+you-3:PRP
+NER
+you-3:O
+
+
+
+
+are-4
+Text Annotation
+are-4:are
+Lemma Annotation
+are-4:be
+POS
+are-4:VBP
+NER
+are-4:O
+
+
+
+
+a-5
+Text Annotation
+a-5:a
+Lemma Annotation
+a-5:a
+POS
+a-5:DT
+NER
+a-5:O
+
+
+
+
+god-6
+Text Annotation
+god-6:god
+Lemma Annotation
+god-6:god
+POS
+god-6:NN
+NER
+god-6:O
+
+
+
+
+damn-7
+Text Annotation
+damn-7:damn
+Lemma Annotation
+damn-7:damn
+POS
+damn-7:NN
+NER
+damn-7:O
+
+
+
+
+idiot-8
+Text Annotation
+idiot-8:idiot
+Lemma Annotation
+idiot-8:idiot
+POS
+idiot-8:NN
+NER
+idiot-8:O
+
+
+
+
+with-9
+Text Annotation
+with-9:with
+Lemma Annotation
+with-9:with
+POS
+with-9:IN
+NER
+with-9:O
+
+
+
+
+no-10
+Text Annotation
+no-10:no
+Lemma Annotation
+no-10:no
+POS
+no-10:DT
+NER
+no-10:O
+
+
+
+
+business-11
+Text Annotation
+business-11:business
+Lemma Annotation
+business-11:business
+POS
+business-11:NN
+NER
+business-11:O
+
+
+
+
+even-12
+Text Annotation
+even-12:even
+Lemma Annotation
+even-12:even
+POS
+even-12:RB
+NER
+even-12:O
+
+
+
+
+being-13
+Text Annotation
+being-13:being
+Lemma Annotation
+being-13:be
+POS
+being-13:VBG
+NER
+being-13:O
+
+
+
+
+a-14
+Text Annotation
+a-14:a
+Lemma Annotation
+a-14:a
+POS
+a-14:DT
+NER
+a-14:O
+
+
+
+
+janitor-15
+Text Annotation
+janitor-15:janitor
+Lemma Annotation
+janitor-15:janitor
+POS
+janitor-15:NN
+NER
+janitor-15:O
+
+
+
+
+at-16
+Text Annotation
+at-16:at
+Lemma Annotation
+at-16:at
+POS
+at-16:IN
+NER
+at-16:O
+
+
+
+
+the-17
+Text Annotation
+the-17:the
+Lemma Annotation
+the-17:the
+POS
+the-17:DT
+NER
+the-17:O
+
+
+
+
+White-18
+Text Annotation
+White-18:White
+Lemma Annotation
+White-18:White
+POS
+White-18:NNP
+NER
+White-18:LOCATION
+
+
+
+
+House-19
+Text Annotation
+House-19:House
+Lemma Annotation
+House-19:House
+POS
+House-19:NNP
+NER
+House-19:LOCATION
+
+
+
+
+!-20
+Text Annotation
+!-20:!
+Lemma Annotation
+!-20:!
+POS
+!-20:.
+NER
+!-20:O
+
+
+
+(ROOT (S (NP (NN @realDonaldTrump) (NN Man)) (NP (PRP you)) (VP (VBP are) (NP (NP (DT a) (NN god) (NN damn) (NN idiot)) (PP (IN with) (S (NP (DT no) (NN business)) (ADVP (RB even)) (VP (VBG being) (NP (NP (DT a) (NN janitor)) (PP (IN at) (NP (DT the) (NNP White) (NNP House))))))))) (. !)))
+-> idiot/NN (root)
+  -> Man/NN (nsubj)
+    -> @realDonaldTrump/NN (compound)
+  -> you/PRP (nsubj)
+  -> are/VBP (cop)
+  -> a/DT (det)
+  -> god/NN (compound)
+  -> damn/NN (compound)
+  -> janitor/NN (acl)
+    -> with/IN (mark)
+    -> business/NN (nsubj)
+      -> no/DT (neg)
+    -> even/RB (advmod)
+    -> being/VBG (cop)
+    -> a/DT (det)
+    -> House/NNP (nmod:at)
+      -> at/IN (case)
+      -> the/DT (det)
+      -> White/NNP (compound)
+  -> !/. (punct)
+
+[CHAIN1-["@realDonaldTrump" in sentence 1], CHAIN4-["the most corrupt person ever to seek the presidency of the United States" in sentence 1, "the presidency of the United States" in sentence 1, "the United States" in sentence 1, "I" in sentence 6, "US" in sentence 6, "I" in sentence 11], CHAIN5-["@realDonaldTrump Man" in sentence 2, "a god damn idiot with no business even being a janitor at the White House" in sentence 2], CHAIN6-["you" in sentence 2], CHAIN8-["no business" in sentence 2], CHAIN9-["a janitor at the White House" in sentence 2], CHAIN10-["the White House" in sentence 2], CHAIN11-["Scotland" in sentence 3, "Scotland liking you more than Trump does not mean Scotland" in sentence 9, "Scotland" in sentence 9], CHAIN12-["#moron @realDonaldTrump @Jolena3 So many anti-Americans trolling our next President 's tweets ." in sentence 4], CHAIN13-["many anti-Americans" in sentence 4], CHAIN14-["our next President 's tweets" in sentence 4, "their" in sentence 5], CHAIN15-["our next President" in sentence 4], CHAIN16-["our" in sentence 4, "we" in sentence 7, "our" in sentence 9], CHAIN17-["You" in sentence 5], CHAIN18-["their nervousness rising" in sentence 5], CHAIN22-["@realDonaldTrump I" in sentence 6], CHAIN23-["the cartels" in sentence 6], CHAIN24-["ahold of you" in sentence 6], CHAIN25-["you" in sentence 6], CHAIN26-["the US elections" in sentence 6], CHAIN27-["You" in sentence 7], CHAIN28-["far the most arrogant ignorant evil son of a bitch @realDonaldTrump @Jolena3" in sentence 7], CHAIN29-["a bitch @realDonaldTrump @Jolena3" in sentence 7], CHAIN31-["a President Trump working for the common man not Wall Street" in sentence 7, "Trump" in sentence 9], CHAIN32-["the common man" in sentence 7], CHAIN33-["Wall Street" in sentence 7], CHAIN34-["AMERICA GREAT AGSIN" in sentence 8], CHAIN37-["@HillaryClinton" in sentence 9, "@HillaryClinton They should have thought of that before they crossed into our Country with no Passport or Visa" in sentence 9], CHAIN38-["this" in sentence 9, "They" in sentence 9, "that" in sentence 9, "they" in sentence 9, "they" in sentence 10], CHAIN40-["you" in sentence 9], CHAIN41-["you" in sentence 9], CHAIN46-["our Country" in sentence 9], CHAIN48-["no Passport or Visa" in sentence 9], CHAIN49-["no Passport" in sentence 9], CHAIN50-["Visa" in sentence 9], CHAIN51-["Price they pay breaking law @HillaryClinton : 44 years since #TitleIX" in sentence 10], CHAIN53-["law @HillaryClinton : 44 years since #TitleIX" in sentence 10], CHAIN54-["44 years since #TitleIX" in sentence 10], CHAIN55-["ever : All stude" in sentence 10], CHAIN56-["nts" in sentence 10, "their" in sentence 10], CHAIN57-["no matter their gender" in sentence 10], CHAIN58-["their gender" in sentence 10], CHAIN60-["@HillaryClinton Plz" in sentence 11], CHAIN61-["BREXIT & TAKIN R COUNTRY BAC has NOTH 2DO WITH lil hands supporters" in sentence 11], CHAIN62-["COUNTRY BAC" in sentence 11], CHAIN63-["NOTH 2DO" in sentence 11], CHAIN64-["lil hands supporters" in sentence 11], CHAIN65-["DEMS TAKIN R COUNTRY BAC FROM REPUBS @HillaryClinton I hear one of your super deligates is going to prison" in sentence 11], CHAIN66-["REPUBS @HillaryClinton I hear one of your super deligates" in sentence 11], CHAIN68-["one of your super deligates" in sentence 11], CHAIN69-["BREXIT" in sentence 11], CHAIN70-["TAKIN" in sentence 11], CHAIN71-["you" in sentence 12]]
+
+Scotland-1
+Text Annotation
+Scotland-1:Scotland
+Lemma Annotation
+Scotland-1:Scotland
+POS
+Scotland-1:NNP
+NER
+Scotland-1:LOCATION
+
+
+
+
+voted-2
+Text Annotation
+voted-2:voted
+Lemma Annotation
+voted-2:vote
+POS
+voted-2:VBD
+NER
+voted-2:O
+
+
+
+
+to-3
+Text Annotation
+to-3:to
+Lemma Annotation
+to-3:to
+POS
+to-3:TO
+NER
+to-3:O
+
+
+
+
+remain-4
+Text Annotation
+remain-4:remain
+Lemma Annotation
+remain-4:remain
+POS
+remain-4:VB
+NER
+remain-4:O
+
+
+
+
+!-5
+Text Annotation
+!-5:!
+Lemma Annotation
+!-5:!
+POS
+!-5:.
+NER
+!-5:O
+
+
+
+(ROOT (S (NP (NNP Scotland)) (VP (VBD voted) (S (VP (TO to) (VP (VB remain))))) (. !)))
+-> voted/VBD (root)
+  -> Scotland/NNP (nsubj)
+  -> remain/VB (xcomp)
+    -> to/TO (mark)
+  -> !/. (punct)
+
+[CHAIN1-["@realDonaldTrump" in sentence 1], CHAIN4-["the most corrupt person ever to seek the presidency of the United States" in sentence 1, "the presidency of the United States" in sentence 1, "the United States" in sentence 1, "I" in sentence 6, "US" in sentence 6, "I" in sentence 11], CHAIN5-["@realDonaldTrump Man" in sentence 2, "a god damn idiot with no business even being a janitor at the White House" in sentence 2], CHAIN6-["you" in sentence 2], CHAIN8-["no business" in sentence 2], CHAIN9-["a janitor at the White House" in sentence 2], CHAIN10-["the White House" in sentence 2], CHAIN11-["Scotland" in sentence 3, "Scotland liking you more than Trump does not mean Scotland" in sentence 9, "Scotland" in sentence 9], CHAIN12-["#moron @realDonaldTrump @Jolena3 So many anti-Americans trolling our next President 's tweets ." in sentence 4], CHAIN13-["many anti-Americans" in sentence 4], CHAIN14-["our next President 's tweets" in sentence 4, "their" in sentence 5], CHAIN15-["our next President" in sentence 4], CHAIN16-["our" in sentence 4, "we" in sentence 7, "our" in sentence 9], CHAIN17-["You" in sentence 5], CHAIN18-["their nervousness rising" in sentence 5], CHAIN22-["@realDonaldTrump I" in sentence 6], CHAIN23-["the cartels" in sentence 6], CHAIN24-["ahold of you" in sentence 6], CHAIN25-["you" in sentence 6], CHAIN26-["the US elections" in sentence 6], CHAIN27-["You" in sentence 7], CHAIN28-["far the most arrogant ignorant evil son of a bitch @realDonaldTrump @Jolena3" in sentence 7], CHAIN29-["a bitch @realDonaldTrump @Jolena3" in sentence 7], CHAIN31-["a President Trump working for the common man not Wall Street" in sentence 7, "Trump" in sentence 9], CHAIN32-["the common man" in sentence 7], CHAIN33-["Wall Street" in sentence 7], CHAIN34-["AMERICA GREAT AGSIN" in sentence 8], CHAIN37-["@HillaryClinton" in sentence 9, "@HillaryClinton They should have thought of that before they crossed into our Country with no Passport or Visa" in sentence 9], CHAIN38-["this" in sentence 9, "They" in sentence 9, "that" in sentence 9, "they" in sentence 9, "they" in sentence 10], CHAIN40-["you" in sentence 9], CHAIN41-["you" in sentence 9], CHAIN46-["our Country" in sentence 9], CHAIN48-["no Passport or Visa" in sentence 9], CHAIN49-["no Passport" in sentence 9], CHAIN50-["Visa" in sentence 9], CHAIN51-["Price they pay breaking law @HillaryClinton : 44 years since #TitleIX" in sentence 10], CHAIN53-["law @HillaryClinton : 44 years since #TitleIX" in sentence 10], CHAIN54-["44 years since #TitleIX" in sentence 10], CHAIN55-["ever : All stude" in sentence 10], CHAIN56-["nts" in sentence 10, "their" in sentence 10], CHAIN57-["no matter their gender" in sentence 10], CHAIN58-["their gender" in sentence 10], CHAIN60-["@HillaryClinton Plz" in sentence 11], CHAIN61-["BREXIT & TAKIN R COUNTRY BAC has NOTH 2DO WITH lil hands supporters" in sentence 11], CHAIN62-["COUNTRY BAC" in sentence 11], CHAIN63-["NOTH 2DO" in sentence 11], CHAIN64-["lil hands supporters" in sentence 11], CHAIN65-["DEMS TAKIN R COUNTRY BAC FROM REPUBS @HillaryClinton I hear one of your super deligates is going to prison" in sentence 11], CHAIN66-["REPUBS @HillaryClinton I hear one of your super deligates" in sentence 11], CHAIN68-["one of your super deligates" in sentence 11], CHAIN69-["BREXIT" in sentence 11], CHAIN70-["TAKIN" in sentence 11], CHAIN71-["you" in sentence 12]]
+
+#moron-1
+Text Annotation
+#moron-1:#moron
+Lemma Annotation
+#moron-1:#moron
+POS
+#moron-1:NN
+NER
+#moron-1:O
+
+
+
+
+@realDonaldTrump-2
+Text Annotation
+@realDonaldTrump-2:@realDonaldTrump
+Lemma Annotation
+@realDonaldTrump-2:@realdonaldtrump
+POS
+@realDonaldTrump-2:NN
+NER
+@realDonaldTrump-2:O
+
+
+
+
+@Jolena3-3
+Text Annotation
+@Jolena3-3:@Jolena3
+Lemma Annotation
+@Jolena3-3:@jolena3
+POS
+@Jolena3-3:NN
+NER
+@Jolena3-3:O
+
+
+
+
+So-4
+Text Annotation
+So-4:So
+Lemma Annotation
+So-4:so
+POS
+So-4:RB
+NER
+So-4:O
+
+
+
+
+many-5
+Text Annotation
+many-5:many
+Lemma Annotation
+many-5:many
+POS
+many-5:JJ
+NER
+many-5:O
+
+
+
+
+anti-Americans-6
+Text Annotation
+anti-Americans-6:anti-Americans
+Lemma Annotation
+anti-Americans-6:anti-american
+POS
+anti-Americans-6:NNS
+NER
+anti-Americans-6:MISC
+
+
+
+
+trolling-7
+Text Annotation
+trolling-7:trolling
+Lemma Annotation
+trolling-7:troll
+POS
+trolling-7:VBG
+NER
+trolling-7:O
+
+
+
+
+our-8
+Text Annotation
+our-8:our
+Lemma Annotation
+our-8:we
+POS
+our-8:PRP$
+NER
+our-8:O
+
+
+
+
+next-9
+Text Annotation
+next-9:next
+Lemma Annotation
+next-9:next
+POS
+next-9:JJ
+NER
+next-9:O
+
+
+
+
+President-10
+Text Annotation
+President-10:President
+Lemma Annotation
+President-10:President
+POS
+President-10:NNP
+NER
+President-10:O
+
+
+
+
+'s-11
+Text Annotation
+'s-11:'s
+Lemma Annotation
+'s-11:'s
+POS
+'s-11:POS
+NER
+'s-11:O
+
+
+
+
+tweets-12
+Text Annotation
+tweets-12:tweets
+Lemma Annotation
+tweets-12:tweet
+POS
+tweets-12:NNS
+NER
+tweets-12:O
+
+
+
+
+.-13
+Text Annotation
+.-13:.
+Lemma Annotation
+.-13:.
+POS
+.-13:.
+NER
+.-13:O
+
+
+
+(ROOT (NP (NP (NN #moron) (NN @realDonaldTrump) (NN @Jolena3)) (VP (ADVP (RB So) (NP (JJ many) (NNS anti-Americans))) (VBG trolling) (NP (NP (PRP$ our) (JJ next) (NNP President)) (POS 's) (NNS tweets))) (. .)))
+-> @Jolena3/NN (root)
+  -> #moron/NN (compound)
+  -> @realDonaldTrump/NN (compound)
+  -> trolling/VBG (acl)
+    -> So/RB (advmod)
+      -> anti-Americans/NNS (nmod:npmod)
+        -> many/JJ (amod)
+    -> tweets/NNS (dobj)
+      -> President/NNP (nmod:poss)
+        -> our/PRP$ (nmod:poss)
+        -> next/JJ (amod)
+      -> 's/POS (case)
+  -> ./. (punct)
+
+[CHAIN1-["@realDonaldTrump" in sentence 1], CHAIN4-["the most corrupt person ever to seek the presidency of the United States" in sentence 1, "the presidency of the United States" in sentence 1, "the United States" in sentence 1, "I" in sentence 6, "US" in sentence 6, "I" in sentence 11], CHAIN5-["@realDonaldTrump Man" in sentence 2, "a god damn idiot with no business even being a janitor at the White House" in sentence 2], CHAIN6-["you" in sentence 2], CHAIN8-["no business" in sentence 2], CHAIN9-["a janitor at the White House" in sentence 2], CHAIN10-["the White House" in sentence 2], CHAIN11-["Scotland" in sentence 3, "Scotland liking you more than Trump does not mean Scotland" in sentence 9, "Scotland" in sentence 9], CHAIN12-["#moron @realDonaldTrump @Jolena3 So many anti-Americans trolling our next President 's tweets ." in sentence 4], CHAIN13-["many anti-Americans" in sentence 4], CHAIN14-["our next President 's tweets" in sentence 4, "their" in sentence 5], CHAIN15-["our next President" in sentence 4], CHAIN16-["our" in sentence 4, "we" in sentence 7, "our" in sentence 9], CHAIN17-["You" in sentence 5], CHAIN18-["their nervousness rising" in sentence 5], CHAIN22-["@realDonaldTrump I" in sentence 6], CHAIN23-["the cartels" in sentence 6], CHAIN24-["ahold of you" in sentence 6], CHAIN25-["you" in sentence 6], CHAIN26-["the US elections" in sentence 6], CHAIN27-["You" in sentence 7], CHAIN28-["far the most arrogant ignorant evil son of a bitch @realDonaldTrump @Jolena3" in sentence 7], CHAIN29-["a bitch @realDonaldTrump @Jolena3" in sentence 7], CHAIN31-["a President Trump working for the common man not Wall Street" in sentence 7, "Trump" in sentence 9], CHAIN32-["the common man" in sentence 7], CHAIN33-["Wall Street" in sentence 7], CHAIN34-["AMERICA GREAT AGSIN" in sentence 8], CHAIN37-["@HillaryClinton" in sentence 9, "@HillaryClinton They should have thought of that before they crossed into our Country with no Passport or Visa" in sentence 9], CHAIN38-["this" in sentence 9, "They" in sentence 9, "that" in sentence 9, "they" in sentence 9, "they" in sentence 10], CHAIN40-["you" in sentence 9], CHAIN41-["you" in sentence 9], CHAIN46-["our Country" in sentence 9], CHAIN48-["no Passport or Visa" in sentence 9], CHAIN49-["no Passport" in sentence 9], CHAIN50-["Visa" in sentence 9], CHAIN51-["Price they pay breaking law @HillaryClinton : 44 years since #TitleIX" in sentence 10], CHAIN53-["law @HillaryClinton : 44 years since #TitleIX" in sentence 10], CHAIN54-["44 years since #TitleIX" in sentence 10], CHAIN55-["ever : All stude" in sentence 10], CHAIN56-["nts" in sentence 10, "their" in sentence 10], CHAIN57-["no matter their gender" in sentence 10], CHAIN58-["their gender" in sentence 10], CHAIN60-["@HillaryClinton Plz" in sentence 11], CHAIN61-["BREXIT & TAKIN R COUNTRY BAC has NOTH 2DO WITH lil hands supporters" in sentence 11], CHAIN62-["COUNTRY BAC" in sentence 11], CHAIN63-["NOTH 2DO" in sentence 11], CHAIN64-["lil hands supporters" in sentence 11], CHAIN65-["DEMS TAKIN R COUNTRY BAC FROM REPUBS @HillaryClinton I hear one of your super deligates is going to prison" in sentence 11], CHAIN66-["REPUBS @HillaryClinton I hear one of your super deligates" in sentence 11], CHAIN68-["one of your super deligates" in sentence 11], CHAIN69-["BREXIT" in sentence 11], CHAIN70-["TAKIN" in sentence 11], CHAIN71-["you" in sentence 12]]
+
+You-1
+Text Annotation
+You-1:You
+Lemma Annotation
+You-1:you
+POS
+You-1:PRP
+NER
+You-1:O
+
+
+
+
+can-2
+Text Annotation
+can-2:can
+Lemma Annotation
+can-2:can
+POS
+can-2:MD
+NER
+can-2:O
+
+
+
+
+sense-3
+Text Annotation
+sense-3:sense
+Lemma Annotation
+sense-3:sense
+POS
+sense-3:VB
+NER
+sense-3:O
+
+
+
+
+their-4
+Text Annotation
+their-4:their
+Lemma Annotation
+their-4:they
+POS
+their-4:PRP$
+NER
+their-4:O
+
+
+
+
+nervousness-5
+Text Annotation
+nervousness-5:nervousness
+Lemma Annotation
+nervousness-5:nervousness
+POS
+nervousness-5:NN
+NER
+nervousness-5:O
+
+
+
+
+rising-6
+Text Annotation
+rising-6:rising
+Lemma Annotation
+rising-6:rise
+POS
+rising-6:VBG
+NER
+rising-6:O
+
+
+
+
+.-7
+Text Annotation
+.-7:.
+Lemma Annotation
+.-7:.
+POS
+.-7:.
+NER
+.-7:O
+
+
+
+(ROOT (S (NP (PRP You)) (VP (MD can) (VP (VB sense) (NP (NP (PRP$ their) (NN nervousness)) (VP (VBG rising))))) (. .)))
+-> sense/VB (root)
+  -> You/PRP (nsubj)
+  -> can/MD (aux)
+  -> nervousness/NN (dobj)
+    -> their/PRP$ (nmod:poss)
+    -> rising/VBG (acl)
+  -> ./. (punct)
+
+[CHAIN1-["@realDonaldTrump" in sentence 1], CHAIN4-["the most corrupt person ever to seek the presidency of the United States" in sentence 1, "the presidency of the United States" in sentence 1, "the United States" in sentence 1, "I" in sentence 6, "US" in sentence 6, "I" in sentence 11], CHAIN5-["@realDonaldTrump Man" in sentence 2, "a god damn idiot with no business even being a janitor at the White House" in sentence 2], CHAIN6-["you" in sentence 2], CHAIN8-["no business" in sentence 2], CHAIN9-["a janitor at the White House" in sentence 2], CHAIN10-["the White House" in sentence 2], CHAIN11-["Scotland" in sentence 3, "Scotland liking you more than Trump does not mean Scotland" in sentence 9, "Scotland" in sentence 9], CHAIN12-["#moron @realDonaldTrump @Jolena3 So many anti-Americans trolling our next President 's tweets ." in sentence 4], CHAIN13-["many anti-Americans" in sentence 4], CHAIN14-["our next President 's tweets" in sentence 4, "their" in sentence 5], CHAIN15-["our next President" in sentence 4], CHAIN16-["our" in sentence 4, "we" in sentence 7, "our" in sentence 9], CHAIN17-["You" in sentence 5], CHAIN18-["their nervousness rising" in sentence 5], CHAIN22-["@realDonaldTrump I" in sentence 6], CHAIN23-["the cartels" in sentence 6], CHAIN24-["ahold of you" in sentence 6], CHAIN25-["you" in sentence 6], CHAIN26-["the US elections" in sentence 6], CHAIN27-["You" in sentence 7], CHAIN28-["far the most arrogant ignorant evil son of a bitch @realDonaldTrump @Jolena3" in sentence 7], CHAIN29-["a bitch @realDonaldTrump @Jolena3" in sentence 7], CHAIN31-["a President Trump working for the common man not Wall Street" in sentence 7, "Trump" in sentence 9], CHAIN32-["the common man" in sentence 7], CHAIN33-["Wall Street" in sentence 7], CHAIN34-["AMERICA GREAT AGSIN" in sentence 8], CHAIN37-["@HillaryClinton" in sentence 9, "@HillaryClinton They should have thought of that before they crossed into our Country with no Passport or Visa" in sentence 9], CHAIN38-["this" in sentence 9, "They" in sentence 9, "that" in sentence 9, "they" in sentence 9, "they" in sentence 10], CHAIN40-["you" in sentence 9], CHAIN41-["you" in sentence 9], CHAIN46-["our Country" in sentence 9], CHAIN48-["no Passport or Visa" in sentence 9], CHAIN49-["no Passport" in sentence 9], CHAIN50-["Visa" in sentence 9], CHAIN51-["Price they pay breaking law @HillaryClinton : 44 years since #TitleIX" in sentence 10], CHAIN53-["law @HillaryClinton : 44 years since #TitleIX" in sentence 10], CHAIN54-["44 years since #TitleIX" in sentence 10], CHAIN55-["ever : All stude" in sentence 10], CHAIN56-["nts" in sentence 10, "their" in sentence 10], CHAIN57-["no matter their gender" in sentence 10], CHAIN58-["their gender" in sentence 10], CHAIN60-["@HillaryClinton Plz" in sentence 11], CHAIN61-["BREXIT & TAKIN R COUNTRY BAC has NOTH 2DO WITH lil hands supporters" in sentence 11], CHAIN62-["COUNTRY BAC" in sentence 11], CHAIN63-["NOTH 2DO" in sentence 11], CHAIN64-["lil hands supporters" in sentence 11], CHAIN65-["DEMS TAKIN R COUNTRY BAC FROM REPUBS @HillaryClinton I hear one of your super deligates is going to prison" in sentence 11], CHAIN66-["REPUBS @HillaryClinton I hear one of your super deligates" in sentence 11], CHAIN68-["one of your super deligates" in sentence 11], CHAIN69-["BREXIT" in sentence 11], CHAIN70-["TAKIN" in sentence 11], CHAIN71-["you" in sentence 12]]
+
+@realDonaldTrump-1
+Text Annotation
+@realDonaldTrump-1:@realDonaldTrump
+Lemma Annotation
+@realDonaldTrump-1:@realdonaldtrump
+POS
+@realDonaldTrump-1:NN
+NER
+@realDonaldTrump-1:O
+
+
+
+
+I-2
+Text Annotation
+I-2:I
+Lemma Annotation
+I-2:i
+POS
+I-2:CD
+NER
+I-2:NUMBER
+
+
+
+
+pray-3
+Text Annotation
+pray-3:pray
+Lemma Annotation
+pray-3:pray
+POS
+pray-3:VBP
+NER
+pray-3:O
+
+
+
+
+the-4
+Text Annotation
+the-4:the
+Lemma Annotation
+the-4:the
+POS
+the-4:DT
+NER
+the-4:O
+
+
+
+
+cartels-5
+Text Annotation
+cartels-5:cartels
+Lemma Annotation
+cartels-5:cartel
+POS
+cartels-5:NNS
+NER
+cartels-5:O
+
+
+
+
+get-6
+Text Annotation
+get-6:get
+Lemma Annotation
+get-6:get
+POS
+get-6:VBP
+NER
+get-6:O
+
+
+
+
+ahold-7
+Text Annotation
+ahold-7:ahold
+Lemma Annotation
+ahold-7:ahold
+POS
+ahold-7:NN
+NER
+ahold-7:O
+
+
+
+
+of-8
+Text Annotation
+of-8:of
+Lemma Annotation
+of-8:of
+POS
+of-8:IN
+NER
+of-8:O
+
+
+
+
+you-9
+Text Annotation
+you-9:you
+Lemma Annotation
+you-9:you
+POS
+you-9:PRP
+NER
+you-9:O
+
+
+
+
+before-10
+Text Annotation
+before-10:before
+Lemma Annotation
+before-10:before
+POS
+before-10:IN
+NER
+before-10:O
+
+
+
+
+the-11
+Text Annotation
+the-11:the
+Lemma Annotation
+the-11:the
+POS
+the-11:DT
+NER
+the-11:O
+
+
+
+
+US-12
+Text Annotation
+US-12:US
+Lemma Annotation
+US-12:US
+POS
+US-12:NNP
+NER
+US-12:LOCATION
+
+
+
+
+elections-13
+Text Annotation
+elections-13:elections
+Lemma Annotation
+elections-13:election
+POS
+elections-13:NNS
+NER
+elections-13:O
+
+
+
+
+.-14
+Text Annotation
+.-14:.
+Lemma Annotation
+.-14:.
+POS
+.-14:.
+NER
+.-14:O
+
+
+
+(ROOT (S (NP (NN @realDonaldTrump) (CD I)) (VP (VBP pray) (SBAR (S (NP (DT the) (NNS cartels)) (VP (VBP get) (NP (NP (NN ahold)) (PP (IN of) (NP (PRP you)))) (PP (IN before) (NP (DT the) (NNP US) (NNS elections))))))) (. .)))
+-> pray/VBP (root)
+  -> @realDonaldTrump/NN (nsubj)
+    -> I/CD (nummod)
+  -> get/VBP (ccomp)
+    -> cartels/NNS (nsubj)
+      -> the/DT (det)
+    -> ahold/NN (dobj)
+      -> you/PRP (nmod:of)
+        -> of/IN (case)
+    -> elections/NNS (nmod:before)
+      -> before/IN (case)
+      -> the/DT (det)
+      -> US/NNP (compound)
+  -> ./. (punct)
+
+[CHAIN1-["@realDonaldTrump" in sentence 1], CHAIN4-["the most corrupt person ever to seek the presidency of the United States" in sentence 1, "the presidency of the United States" in sentence 1, "the United States" in sentence 1, "I" in sentence 6, "US" in sentence 6, "I" in sentence 11], CHAIN5-["@realDonaldTrump Man" in sentence 2, "a god damn idiot with no business even being a janitor at the White House" in sentence 2], CHAIN6-["you" in sentence 2], CHAIN8-["no business" in sentence 2], CHAIN9-["a janitor at the White House" in sentence 2], CHAIN10-["the White House" in sentence 2], CHAIN11-["Scotland" in sentence 3, "Scotland liking you more than Trump does not mean Scotland" in sentence 9, "Scotland" in sentence 9], CHAIN12-["#moron @realDonaldTrump @Jolena3 So many anti-Americans trolling our next President 's tweets ." in sentence 4], CHAIN13-["many anti-Americans" in sentence 4], CHAIN14-["our next President 's tweets" in sentence 4, "their" in sentence 5], CHAIN15-["our next President" in sentence 4], CHAIN16-["our" in sentence 4, "we" in sentence 7, "our" in sentence 9], CHAIN17-["You" in sentence 5], CHAIN18-["their nervousness rising" in sentence 5], CHAIN22-["@realDonaldTrump I" in sentence 6], CHAIN23-["the cartels" in sentence 6], CHAIN24-["ahold of you" in sentence 6], CHAIN25-["you" in sentence 6], CHAIN26-["the US elections" in sentence 6], CHAIN27-["You" in sentence 7], CHAIN28-["far the most arrogant ignorant evil son of a bitch @realDonaldTrump @Jolena3" in sentence 7], CHAIN29-["a bitch @realDonaldTrump @Jolena3" in sentence 7], CHAIN31-["a President Trump working for the common man not Wall Street" in sentence 7, "Trump" in sentence 9], CHAIN32-["the common man" in sentence 7], CHAIN33-["Wall Street" in sentence 7], CHAIN34-["AMERICA GREAT AGSIN" in sentence 8], CHAIN37-["@HillaryClinton" in sentence 9, "@HillaryClinton They should have thought of that before they crossed into our Country with no Passport or Visa" in sentence 9], CHAIN38-["this" in sentence 9, "They" in sentence 9, "that" in sentence 9, "they" in sentence 9, "they" in sentence 10], CHAIN40-["you" in sentence 9], CHAIN41-["you" in sentence 9], CHAIN46-["our Country" in sentence 9], CHAIN48-["no Passport or Visa" in sentence 9], CHAIN49-["no Passport" in sentence 9], CHAIN50-["Visa" in sentence 9], CHAIN51-["Price they pay breaking law @HillaryClinton : 44 years since #TitleIX" in sentence 10], CHAIN53-["law @HillaryClinton : 44 years since #TitleIX" in sentence 10], CHAIN54-["44 years since #TitleIX" in sentence 10], CHAIN55-["ever : All stude" in sentence 10], CHAIN56-["nts" in sentence 10, "their" in sentence 10], CHAIN57-["no matter their gender" in sentence 10], CHAIN58-["their gender" in sentence 10], CHAIN60-["@HillaryClinton Plz" in sentence 11], CHAIN61-["BREXIT & TAKIN R COUNTRY BAC has NOTH 2DO WITH lil hands supporters" in sentence 11], CHAIN62-["COUNTRY BAC" in sentence 11], CHAIN63-["NOTH 2DO" in sentence 11], CHAIN64-["lil hands supporters" in sentence 11], CHAIN65-["DEMS TAKIN R COUNTRY BAC FROM REPUBS @HillaryClinton I hear one of your super deligates is going to prison" in sentence 11], CHAIN66-["REPUBS @HillaryClinton I hear one of your super deligates" in sentence 11], CHAIN68-["one of your super deligates" in sentence 11], CHAIN69-["BREXIT" in sentence 11], CHAIN70-["TAKIN" in sentence 11], CHAIN71-["you" in sentence 12]]
+
+You-1
+Text Annotation
+You-1:You
+Lemma Annotation
+You-1:you
+POS
+You-1:PRP
+NER
+You-1:O
+
+
+
+
+are-2
+Text Annotation
+are-2:are
+Lemma Annotation
+are-2:be
+POS
+are-2:VBP
+NER
+are-2:O
+
+
+
+
+by-3
+Text Annotation
+by-3:by
+Lemma Annotation
+by-3:by
+POS
+by-3:IN
+NER
+by-3:O
+
+
+
+
+far-4
+Text Annotation
+far-4:far
+Lemma Annotation
+far-4:far
+POS
+far-4:RB
+NER
+far-4:O
+
+
+
+
+the-5
+Text Annotation
+the-5:the
+Lemma Annotation
+the-5:the
+POS
+the-5:DT
+NER
+the-5:O
+
+
+
+
+most-6
+Text Annotation
+most-6:most
+Lemma Annotation
+most-6:most
+POS
+most-6:RBS
+NER
+most-6:O
+
+
+
+
+arrogant-7
+Text Annotation
+arrogant-7:arrogant
+Lemma Annotation
+arrogant-7:arrogant
+POS
+arrogant-7:JJ
+NER
+arrogant-7:O
+
+
+
+
+ignorant-8
+Text Annotation
+ignorant-8:ignorant
+Lemma Annotation
+ignorant-8:ignorant
+POS
+ignorant-8:JJ
+NER
+ignorant-8:O
+
+
+
+
+evil-9
+Text Annotation
+evil-9:evil
+Lemma Annotation
+evil-9:evil
+POS
+evil-9:JJ
+NER
+evil-9:O
+
+
+
+
+son-10
+Text Annotation
+son-10:son
+Lemma Annotation
+son-10:son
+POS
+son-10:NN
+NER
+son-10:O
+
+
+
+
+of-11
+Text Annotation
+of-11:of
+Lemma Annotation
+of-11:of
+POS
+of-11:IN
+NER
+of-11:O
+
+
+
+
+a-12
+Text Annotation
+a-12:a
+Lemma Annotation
+a-12:a
+POS
+a-12:DT
+NER
+a-12:O
+
+
+
+
+bitch-13
+Text Annotation
+bitch-13:bitch
+Lemma Annotation
+bitch-13:bitch
+POS
+bitch-13:NN
+NER
+bitch-13:O
+
+
+
+
+@realDonaldTrump-14
+Text Annotation
+@realDonaldTrump-14:@realDonaldTrump
+Lemma Annotation
+@realDonaldTrump-14:@realdonaldtrump
+POS
+@realDonaldTrump-14:NN
+NER
+@realDonaldTrump-14:O
+
+
+
+
+@Jolena3-15
+Text Annotation
+@Jolena3-15:@Jolena3
+Lemma Annotation
+@Jolena3-15:@jolena3
+POS
+@Jolena3-15:NN
+NER
+@Jolena3-15:O
+
+
+
+
+And-16
+Text Annotation
+And-16:And
+Lemma Annotation
+And-16:and
+POS
+And-16:CC
+NER
+And-16:O
+
+
+
+
+we-17
+Text Annotation
+we-17:we
+Lemma Annotation
+we-17:we
+POS
+we-17:PRP
+NER
+we-17:O
+
+
+
+
+will-18
+Text Annotation
+will-18:will
+Lemma Annotation
+will-18:will
+POS
+will-18:MD
+NER
+will-18:O
+
+
+
+
+have-19
+Text Annotation
+have-19:have
+Lemma Annotation
+have-19:have
+POS
+have-19:VB
+NER
+have-19:O
+
+
+
+
+a-20
+Text Annotation
+a-20:a
+Lemma Annotation
+a-20:a
+POS
+a-20:DT
+NER
+a-20:O
+
+
+
+
+President-21
+Text Annotation
+President-21:President
+Lemma Annotation
+President-21:President
+POS
+President-21:NNP
+NER
+President-21:O
+
+
+
+
+Trump-22
+Text Annotation
+Trump-22:Trump
+Lemma Annotation
+Trump-22:Trump
+POS
+Trump-22:NNP
+NER
+Trump-22:PERSON
+
+
+
+
+working-23
+Text Annotation
+working-23:working
+Lemma Annotation
+working-23:work
+POS
+working-23:VBG
+NER
+working-23:O
+
+
+
+
+for-24
+Text Annotation
+for-24:for
+Lemma Annotation
+for-24:for
+POS
+for-24:IN
+NER
+for-24:O
+
+
+
+
+the-25
+Text Annotation
+the-25:the
+Lemma Annotation
+the-25:the
+POS
+the-25:DT
+NER
+the-25:O
+
+
+
+
+common-26
+Text Annotation
+common-26:common
+Lemma Annotation
+common-26:common
+POS
+common-26:JJ
+NER
+common-26:O
+
+
+
+
+man-27
+Text Annotation
+man-27:man
+Lemma Annotation
+man-27:man
+POS
+man-27:NN
+NER
+man-27:O
+
+
+
+
+not-28
+Text Annotation
+not-28:not
+Lemma Annotation
+not-28:not
+POS
+not-28:RB
+NER
+not-28:O
+
+
+
+
+Wall-29
+Text Annotation
+Wall-29:Wall
+Lemma Annotation
+Wall-29:Wall
+POS
+Wall-29:NNP
+NER
+Wall-29:O
+
+
+
+
+Street-30
+Text Annotation
+Street-30:Street
+Lemma Annotation
+Street-30:Street
+POS
+Street-30:NNP
+NER
+Street-30:O
+
+
+
+
+.-31
+Text Annotation
+.-31:.
+Lemma Annotation
+.-31:.
+POS
+.-31:.
+NER
+.-31:O
+
+
+
+(ROOT (S (S (NP (PRP You)) (VP (VBP are) (PP (IN by) (NP (NP (RB far) (DT the) (ADJP (RBS most) (JJ arrogant)) (ADJP (JJ ignorant) (JJ evil)) (NN son)) (PP (IN of) (NP (DT a) (NN bitch) (NN @realDonaldTrump) (NN @Jolena3))))))) (CC And) (S (NP (PRP we)) (VP (MD will) (VP (VB have) (NP (NP (DT a) (NNP President) (NNP Trump)) (VP (VBG working) (PP (IN for) (NP (DT the) (JJ common) (NN man))) (PP (RB not) (NP (NNP Wall) (NNP Street)))))))) (. .)))
+-> son/NN (root)
+  -> You/PRP (nsubj)
+  -> are/VBP (cop)
+  -> by/IN (case)
+  -> far/RB (advmod)
+  -> the/DT (det)
+  -> arrogant/JJ (amod)
+    -> most/RBS (advmod)
+  -> evil/JJ (amod)
+    -> ignorant/JJ (amod)
+  -> @Jolena3/NN (nmod:of)
+    -> of/IN (case)
+    -> a/DT (det)
+    -> bitch/NN (compound)
+    -> @realDonaldTrump/NN (compound)
+  -> And/CC (cc)
+  -> have/VB (conj:and)
+    -> we/PRP (nsubj)
+    -> will/MD (aux)
+    -> Trump/NNP (dobj)
+      -> a/DT (det)
+      -> President/NNP (compound)
+      -> working/VBG (acl)
+        -> man/NN (nmod:for)
+          -> for/IN (case)
+          -> the/DT (det)
+          -> common/JJ (amod)
+        -> Street/NNP (nmod)
+          -> not/RB (neg)
+          -> Wall/NNP (compound)
+  -> ./. (punct)
+
+[CHAIN1-["@realDonaldTrump" in sentence 1], CHAIN4-["the most corrupt person ever to seek the presidency of the United States" in sentence 1, "the presidency of the United States" in sentence 1, "the United States" in sentence 1, "I" in sentence 6, "US" in sentence 6, "I" in sentence 11], CHAIN5-["@realDonaldTrump Man" in sentence 2, "a god damn idiot with no business even being a janitor at the White House" in sentence 2], CHAIN6-["you" in sentence 2], CHAIN8-["no business" in sentence 2], CHAIN9-["a janitor at the White House" in sentence 2], CHAIN10-["the White House" in sentence 2], CHAIN11-["Scotland" in sentence 3, "Scotland liking you more than Trump does not mean Scotland" in sentence 9, "Scotland" in sentence 9], CHAIN12-["#moron @realDonaldTrump @Jolena3 So many anti-Americans trolling our next President 's tweets ." in sentence 4], CHAIN13-["many anti-Americans" in sentence 4], CHAIN14-["our next President 's tweets" in sentence 4, "their" in sentence 5], CHAIN15-["our next President" in sentence 4], CHAIN16-["our" in sentence 4, "we" in sentence 7, "our" in sentence 9], CHAIN17-["You" in sentence 5], CHAIN18-["their nervousness rising" in sentence 5], CHAIN22-["@realDonaldTrump I" in sentence 6], CHAIN23-["the cartels" in sentence 6], CHAIN24-["ahold of you" in sentence 6], CHAIN25-["you" in sentence 6], CHAIN26-["the US elections" in sentence 6], CHAIN27-["You" in sentence 7], CHAIN28-["far the most arrogant ignorant evil son of a bitch @realDonaldTrump @Jolena3" in sentence 7], CHAIN29-["a bitch @realDonaldTrump @Jolena3" in sentence 7], CHAIN31-["a President Trump working for the common man not Wall Street" in sentence 7, "Trump" in sentence 9], CHAIN32-["the common man" in sentence 7], CHAIN33-["Wall Street" in sentence 7], CHAIN34-["AMERICA GREAT AGSIN" in sentence 8], CHAIN37-["@HillaryClinton" in sentence 9, "@HillaryClinton They should have thought of that before they crossed into our Country with no Passport or Visa" in sentence 9], CHAIN38-["this" in sentence 9, "They" in sentence 9, "that" in sentence 9, "they" in sentence 9, "they" in sentence 10], CHAIN40-["you" in sentence 9], CHAIN41-["you" in sentence 9], CHAIN46-["our Country" in sentence 9], CHAIN48-["no Passport or Visa" in sentence 9], CHAIN49-["no Passport" in sentence 9], CHAIN50-["Visa" in sentence 9], CHAIN51-["Price they pay breaking law @HillaryClinton : 44 years since #TitleIX" in sentence 10], CHAIN53-["law @HillaryClinton : 44 years since #TitleIX" in sentence 10], CHAIN54-["44 years since #TitleIX" in sentence 10], CHAIN55-["ever : All stude" in sentence 10], CHAIN56-["nts" in sentence 10, "their" in sentence 10], CHAIN57-["no matter their gender" in sentence 10], CHAIN58-["their gender" in sentence 10], CHAIN60-["@HillaryClinton Plz" in sentence 11], CHAIN61-["BREXIT & TAKIN R COUNTRY BAC has NOTH 2DO WITH lil hands supporters" in sentence 11], CHAIN62-["COUNTRY BAC" in sentence 11], CHAIN63-["NOTH 2DO" in sentence 11], CHAIN64-["lil hands supporters" in sentence 11], CHAIN65-["DEMS TAKIN R COUNTRY BAC FROM REPUBS @HillaryClinton I hear one of your super deligates is going to prison" in sentence 11], CHAIN66-["REPUBS @HillaryClinton I hear one of your super deligates" in sentence 11], CHAIN68-["one of your super deligates" in sentence 11], CHAIN69-["BREXIT" in sentence 11], CHAIN70-["TAKIN" in sentence 11], CHAIN71-["you" in sentence 12]]
+
+MAKE-1
+Text Annotation
+MAKE-1:MAKE
+Lemma Annotation
+MAKE-1:make
+POS
+MAKE-1:VB
+NER
+MAKE-1:O
+
+
+
+
+AMERICA-2
+Text Annotation
+AMERICA-2:AMERICA
+Lemma Annotation
+AMERICA-2:AMERICA
+POS
+AMERICA-2:NNP
+NER
+AMERICA-2:O
+
+
+
+
+GREAT-3
+Text Annotation
+GREAT-3:GREAT
+Lemma Annotation
+GREAT-3:great
+POS
+GREAT-3:JJ
+NER
+GREAT-3:O
+
+
+
+
+AGSIN-4
+Text Annotation
+AGSIN-4:AGSIN
+Lemma Annotation
+AGSIN-4:agsin
+POS
+AGSIN-4:NN
+NER
+AGSIN-4:O
+
+
+
+
+!-5
+Text Annotation
+!-5:!
+Lemma Annotation
+!-5:!
+POS
+!-5:.
+NER
+!-5:O
+
+
+
+(ROOT (S (VP (VB MAKE) (NP (NNP AMERICA) (JJ GREAT) (NN AGSIN))) (. !)))
+-> MAKE/VB (root)
+  -> AGSIN/NN (dobj)
+    -> AMERICA/NNP (compound)
+    -> GREAT/JJ (amod)
+  -> !/. (punct)
+
+[CHAIN1-["@realDonaldTrump" in sentence 1], CHAIN4-["the most corrupt person ever to seek the presidency of the United States" in sentence 1, "the presidency of the United States" in sentence 1, "the United States" in sentence 1, "I" in sentence 6, "US" in sentence 6, "I" in sentence 11], CHAIN5-["@realDonaldTrump Man" in sentence 2, "a god damn idiot with no business even being a janitor at the White House" in sentence 2], CHAIN6-["you" in sentence 2], CHAIN8-["no business" in sentence 2], CHAIN9-["a janitor at the White House" in sentence 2], CHAIN10-["the White House" in sentence 2], CHAIN11-["Scotland" in sentence 3, "Scotland liking you more than Trump does not mean Scotland" in sentence 9, "Scotland" in sentence 9], CHAIN12-["#moron @realDonaldTrump @Jolena3 So many anti-Americans trolling our next President 's tweets ." in sentence 4], CHAIN13-["many anti-Americans" in sentence 4], CHAIN14-["our next President 's tweets" in sentence 4, "their" in sentence 5], CHAIN15-["our next President" in sentence 4], CHAIN16-["our" in sentence 4, "we" in sentence 7, "our" in sentence 9], CHAIN17-["You" in sentence 5], CHAIN18-["their nervousness rising" in sentence 5], CHAIN22-["@realDonaldTrump I" in sentence 6], CHAIN23-["the cartels" in sentence 6], CHAIN24-["ahold of you" in sentence 6], CHAIN25-["you" in sentence 6], CHAIN26-["the US elections" in sentence 6], CHAIN27-["You" in sentence 7], CHAIN28-["far the most arrogant ignorant evil son of a bitch @realDonaldTrump @Jolena3" in sentence 7], CHAIN29-["a bitch @realDonaldTrump @Jolena3" in sentence 7], CHAIN31-["a President Trump working for the common man not Wall Street" in sentence 7, "Trump" in sentence 9], CHAIN32-["the common man" in sentence 7], CHAIN33-["Wall Street" in sentence 7], CHAIN34-["AMERICA GREAT AGSIN" in sentence 8], CHAIN37-["@HillaryClinton" in sentence 9, "@HillaryClinton They should have thought of that before they crossed into our Country with no Passport or Visa" in sentence 9], CHAIN38-["this" in sentence 9, "They" in sentence 9, "that" in sentence 9, "they" in sentence 9, "they" in sentence 10], CHAIN40-["you" in sentence 9], CHAIN41-["you" in sentence 9], CHAIN46-["our Country" in sentence 9], CHAIN48-["no Passport or Visa" in sentence 9], CHAIN49-["no Passport" in sentence 9], CHAIN50-["Visa" in sentence 9], CHAIN51-["Price they pay breaking law @HillaryClinton : 44 years since #TitleIX" in sentence 10], CHAIN53-["law @HillaryClinton : 44 years since #TitleIX" in sentence 10], CHAIN54-["44 years since #TitleIX" in sentence 10], CHAIN55-["ever : All stude" in sentence 10], CHAIN56-["nts" in sentence 10, "their" in sentence 10], CHAIN57-["no matter their gender" in sentence 10], CHAIN58-["their gender" in sentence 10], CHAIN60-["@HillaryClinton Plz" in sentence 11], CHAIN61-["BREXIT & TAKIN R COUNTRY BAC has NOTH 2DO WITH lil hands supporters" in sentence 11], CHAIN62-["COUNTRY BAC" in sentence 11], CHAIN63-["NOTH 2DO" in sentence 11], CHAIN64-["lil hands supporters" in sentence 11], CHAIN65-["DEMS TAKIN R COUNTRY BAC FROM REPUBS @HillaryClinton I hear one of your super deligates is going to prison" in sentence 11], CHAIN66-["REPUBS @HillaryClinton I hear one of your super deligates" in sentence 11], CHAIN68-["one of your super deligates" in sentence 11], CHAIN69-["BREXIT" in sentence 11], CHAIN70-["TAKIN" in sentence 11], CHAIN71-["you" in sentence 12]]
+
+@HillaryClinton-1
+Text Annotation
+@HillaryClinton-1:@HillaryClinton
+Lemma Annotation
+@HillaryClinton-1:@HillaryClinton
+POS
+@HillaryClinton-1:NNP
+NER
+@HillaryClinton-1:O
+
+
+
+
+Do-2
+Text Annotation
+Do-2:Do
+Lemma Annotation
+Do-2:do
+POS
+Do-2:VBP
+NER
+Do-2:O
+
+
+
+
+n't-3
+Text Annotation
+n't-3:n't
+Lemma Annotation
+n't-3:not
+POS
+n't-3:RB
+NER
+n't-3:O
+
+
+
+
+know-4
+Text Annotation
+know-4:know
+Lemma Annotation
+know-4:know
+POS
+know-4:VB
+NER
+know-4:O
+
+
+
+
+how-5
+Text Annotation
+how-5:how
+Lemma Annotation
+how-5:how
+POS
+how-5:WRB
+NER
+how-5:O
+
+
+
+
+to-6
+Text Annotation
+to-6:to
+Lemma Annotation
+to-6:to
+POS
+to-6:TO
+NER
+to-6:O
+
+
+
+
+say-7
+Text Annotation
+say-7:say
+Lemma Annotation
+say-7:say
+POS
+say-7:VB
+NER
+say-7:O
+
+
+
+
+this-8
+Text Annotation
+this-8:this
+Lemma Annotation
+this-8:this
+POS
+this-8:DT
+NER
+this-8:O
+
+
+
+
+,-9
+Text Annotation
+,-9:,
+Lemma Annotation
+,-9:,
+POS
+,-9:,
+NER
+,-9:O
+
+
+
+
+but-10
+Text Annotation
+but-10:but
+Lemma Annotation
+but-10:but
+POS
+but-10:CC
+NER
+but-10:O
+
+
+
+
+Scotland-11
+Text Annotation
+Scotland-11:Scotland
+Lemma Annotation
+Scotland-11:Scotland
+POS
+Scotland-11:NNP
+NER
+Scotland-11:LOCATION
+
+
+
+
+liking-12
+Text Annotation
+liking-12:liking
+Lemma Annotation
+liking-12:like
+POS
+liking-12:VBG
+NER
+liking-12:O
+
+
+
+
+you-13
+Text Annotation
+you-13:you
+Lemma Annotation
+you-13:you
+POS
+you-13:PRP
+NER
+you-13:O
+
+
+
+
+more-14
+Text Annotation
+more-14:more
+Lemma Annotation
+more-14:more
+POS
+more-14:JJR
+NER
+more-14:O
+
+
+
+
+than-15
+Text Annotation
+than-15:than
+Lemma Annotation
+than-15:than
+POS
+than-15:IN
+NER
+than-15:O
+
+
+
+
+Trump-16
+Text Annotation
+Trump-16:Trump
+Lemma Annotation
+Trump-16:Trump
+POS
+Trump-16:NNP
+NER
+Trump-16:PERSON
+
+
+
+
+does-17
+Text Annotation
+does-17:does
+Lemma Annotation
+does-17:do
+POS
+does-17:VBZ
+NER
+does-17:O
+
+
+
+
+not-18
+Text Annotation
+not-18:not
+Lemma Annotation
+not-18:not
+POS
+not-18:RB
+NER
+not-18:O
+
+
+
+
+mean-19
+Text Annotation
+mean-19:mean
+Lemma Annotation
+mean-19:mean
+POS
+mean-19:VB
+NER
+mean-19:O
+
+
+
+
+Scotland-20
+Text Annotation
+Scotland-20:Scotland
+Lemma Annotation
+Scotland-20:Scotland
+POS
+Scotland-20:NNP
+NER
+Scotland-20:LOCATION
+
+
+
+
+likes-21
+Text Annotation
+likes-21:likes
+Lemma Annotation
+likes-21:like
+POS
+likes-21:VBZ
+NER
+likes-21:O
+
+
+
+
+you-22
+Text Annotation
+you-22:you
+Lemma Annotation
+you-22:you
+POS
+you-22:PRP
+NER
+you-22:O
+
+
+
+
+@HillaryClinton-23
+Text Annotation
+@HillaryClinton-23:@HillaryClinton
+Lemma Annotation
+@HillaryClinton-23:@HillaryClinton
+POS
+@HillaryClinton-23:NNP
+NER
+@HillaryClinton-23:O
+
+
+
+
+They-24
+Text Annotation
+They-24:They
+Lemma Annotation
+They-24:they
+POS
+They-24:PRP
+NER
+They-24:O
+
+
+
+
+should-25
+Text Annotation
+should-25:should
+Lemma Annotation
+should-25:should
+POS
+should-25:MD
+NER
+should-25:O
+
+
+
+
+have-26
+Text Annotation
+have-26:have
+Lemma Annotation
+have-26:have
+POS
+have-26:VB
+NER
+have-26:O
+
+
+
+
+thought-27
+Text Annotation
+thought-27:thought
+Lemma Annotation
+thought-27:think
+POS
+thought-27:VBN
+NER
+thought-27:O
+
+
+
+
+of-28
+Text Annotation
+of-28:of
+Lemma Annotation
+of-28:of
+POS
+of-28:IN
+NER
+of-28:O
+
+
+
+
+that-29
+Text Annotation
+that-29:that
+Lemma Annotation
+that-29:that
+POS
+that-29:DT
+NER
+that-29:O
+
+
+
+
+before-30
+Text Annotation
+before-30:before
+Lemma Annotation
+before-30:before
+POS
+before-30:IN
+NER
+before-30:O
+
+
+
+
+they-31
+Text Annotation
+they-31:they
+Lemma Annotation
+they-31:they
+POS
+they-31:PRP
+NER
+they-31:O
+
+
+
+
+crossed-32
+Text Annotation
+crossed-32:crossed
+Lemma Annotation
+crossed-32:cross
+POS
+crossed-32:VBD
+NER
+crossed-32:O
+
+
+
+
+into-33
+Text Annotation
+into-33:into
+Lemma Annotation
+into-33:into
+POS
+into-33:IN
+NER
+into-33:O
+
+
+
+
+our-34
+Text Annotation
+our-34:our
+Lemma Annotation
+our-34:we
+POS
+our-34:PRP$
+NER
+our-34:O
+
+
+
+
+Country-35
+Text Annotation
+Country-35:Country
+Lemma Annotation
+Country-35:country
+POS
+Country-35:NN
+NER
+Country-35:O
+
+
+
+
+with-36
+Text Annotation
+with-36:with
+Lemma Annotation
+with-36:with
+POS
+with-36:IN
+NER
+with-36:O
+
+
+
+
+no-37
+Text Annotation
+no-37:no
+Lemma Annotation
+no-37:no
+POS
+no-37:DT
+NER
+no-37:O
+
+
+
+
+Passport-38
+Text Annotation
+Passport-38:Passport
+Lemma Annotation
+Passport-38:passport
+POS
+Passport-38:NN
+NER
+Passport-38:O
+
+
+
+
+or-39
+Text Annotation
+or-39:or
+Lemma Annotation
+or-39:or
+POS
+or-39:CC
+NER
+or-39:O
+
+
+
+
+Visa-40
+Text Annotation
+Visa-40:Visa
+Lemma Annotation
+Visa-40:Visa
+POS
+Visa-40:NNP
+NER
+Visa-40:O
+
+
+
+
+.-41
+Text Annotation
+.-41:.
+Lemma Annotation
+.-41:.
+POS
+.-41:.
+NER
+.-41:O
+
+
+
+(ROOT (S (S (NP (NNP @HillaryClinton)) (VP (VBP Do) (RB n't) (VP (VB know) (SBAR (WHADVP (WRB how)) (S (VP (TO to) (VP (VB say) (NP (DT this))))))))) (, ,) (CC but) (S (NP (NP (NNP Scotland)) (VP (VBG liking) (S (NP (PRP you)) (ADJP (JJR more))) (SBAR (IN than) (S (NP (NNP Trump)) (VP (VBZ does) (RB not) (VP (VB mean) (NP (NNP Scotland)))))))) (VP (VBZ likes) (NP (PRP you)) (NP-TMP (NP (NNP @HillaryClinton)) (SBAR (S (NP (PRP They)) (VP (MD should) (VP (VB have) (VP (VBN thought) (PP (IN of) (NP (DT that))) (SBAR (IN before) (S (NP (PRP they)) (VP (VBD crossed) (PP (IN into) (NP (PRP$ our) (NN Country))) (PP (IN with) (NP (NP (DT no) (NN Passport)) (CC or) (NP (NNP Visa))))))))))))))) (. .)))
+-> know/VB (root)
+  -> @HillaryClinton/NNP (nsubj)
+  -> Do/VBP (aux)
+  -> n't/RB (neg)
+  -> say/VB (ccomp)
+    -> how/WRB (advmod)
+    -> to/TO (mark)
+    -> this/DT (dobj)
+  -> ,/, (punct)
+  -> but/CC (cc)
+  -> likes/VBZ (conj:but)
+    -> Scotland/NNP (nsubj)
+      -> liking/VBG (acl)
+        -> more/JJR (xcomp)
+          -> you/PRP (nsubj)
+        -> mean/VB (advcl)
+          -> than/IN (mark)
+          -> Trump/NNP (nsubj)
+          -> does/VBZ (aux)
+          -> not/RB (neg)
+          -> Scotland/NNP (dobj)
+    -> you/PRP (dobj)
+    -> @HillaryClinton/NNP (nmod:tmod)
+      -> thought/VBN (acl:relcl)
+        -> They/PRP (nsubj)
+        -> should/MD (aux)
+        -> have/VB (aux)
+        -> that/DT (nmod:of)
+          -> of/IN (case)
+        -> crossed/VBD (advcl)
+          -> before/IN (mark)
+          -> they/PRP (nsubj)
+          -> Country/NN (nmod:into)
+            -> into/IN (case)
+            -> our/PRP$ (nmod:poss)
+          -> Passport/NN (nmod:with)
+            -> with/IN (case)
+            -> no/DT (neg)
+            -> or/CC (cc)
+            -> Visa/NNP (conj:or)
+          -> Visa/NNP (nmod:with)
+  -> ./. (punct)
+
+[CHAIN1-["@realDonaldTrump" in sentence 1], CHAIN4-["the most corrupt person ever to seek the presidency of the United States" in sentence 1, "the presidency of the United States" in sentence 1, "the United States" in sentence 1, "I" in sentence 6, "US" in sentence 6, "I" in sentence 11], CHAIN5-["@realDonaldTrump Man" in sentence 2, "a god damn idiot with no business even being a janitor at the White House" in sentence 2], CHAIN6-["you" in sentence 2], CHAIN8-["no business" in sentence 2], CHAIN9-["a janitor at the White House" in sentence 2], CHAIN10-["the White House" in sentence 2], CHAIN11-["Scotland" in sentence 3, "Scotland liking you more than Trump does not mean Scotland" in sentence 9, "Scotland" in sentence 9], CHAIN12-["#moron @realDonaldTrump @Jolena3 So many anti-Americans trolling our next President 's tweets ." in sentence 4], CHAIN13-["many anti-Americans" in sentence 4], CHAIN14-["our next President 's tweets" in sentence 4, "their" in sentence 5], CHAIN15-["our next President" in sentence 4], CHAIN16-["our" in sentence 4, "we" in sentence 7, "our" in sentence 9], CHAIN17-["You" in sentence 5], CHAIN18-["their nervousness rising" in sentence 5], CHAIN22-["@realDonaldTrump I" in sentence 6], CHAIN23-["the cartels" in sentence 6], CHAIN24-["ahold of you" in sentence 6], CHAIN25-["you" in sentence 6], CHAIN26-["the US elections" in sentence 6], CHAIN27-["You" in sentence 7], CHAIN28-["far the most arrogant ignorant evil son of a bitch @realDonaldTrump @Jolena3" in sentence 7], CHAIN29-["a bitch @realDonaldTrump @Jolena3" in sentence 7], CHAIN31-["a President Trump working for the common man not Wall Street" in sentence 7, "Trump" in sentence 9], CHAIN32-["the common man" in sentence 7], CHAIN33-["Wall Street" in sentence 7], CHAIN34-["AMERICA GREAT AGSIN" in sentence 8], CHAIN37-["@HillaryClinton" in sentence 9, "@HillaryClinton They should have thought of that before they crossed into our Country with no Passport or Visa" in sentence 9], CHAIN38-["this" in sentence 9, "They" in sentence 9, "that" in sentence 9, "they" in sentence 9, "they" in sentence 10], CHAIN40-["you" in sentence 9], CHAIN41-["you" in sentence 9], CHAIN46-["our Country" in sentence 9], CHAIN48-["no Passport or Visa" in sentence 9], CHAIN49-["no Passport" in sentence 9], CHAIN50-["Visa" in sentence 9], CHAIN51-["Price they pay breaking law @HillaryClinton : 44 years since #TitleIX" in sentence 10], CHAIN53-["law @HillaryClinton : 44 years since #TitleIX" in sentence 10], CHAIN54-["44 years since #TitleIX" in sentence 10], CHAIN55-["ever : All stude" in sentence 10], CHAIN56-["nts" in sentence 10, "their" in sentence 10], CHAIN57-["no matter their gender" in sentence 10], CHAIN58-["their gender" in sentence 10], CHAIN60-["@HillaryClinton Plz" in sentence 11], CHAIN61-["BREXIT & TAKIN R COUNTRY BAC has NOTH 2DO WITH lil hands supporters" in sentence 11], CHAIN62-["COUNTRY BAC" in sentence 11], CHAIN63-["NOTH 2DO" in sentence 11], CHAIN64-["lil hands supporters" in sentence 11], CHAIN65-["DEMS TAKIN R COUNTRY BAC FROM REPUBS @HillaryClinton I hear one of your super deligates is going to prison" in sentence 11], CHAIN66-["REPUBS @HillaryClinton I hear one of your super deligates" in sentence 11], CHAIN68-["one of your super deligates" in sentence 11], CHAIN69-["BREXIT" in sentence 11], CHAIN70-["TAKIN" in sentence 11], CHAIN71-["you" in sentence 12]]
+
+Price-1
+Text Annotation
+Price-1:Price
+Lemma Annotation
+Price-1:price
+POS
+Price-1:NN
+NER
+Price-1:O
+
+
+
+
+they-2
+Text Annotation
+they-2:they
+Lemma Annotation
+they-2:they
+POS
+they-2:PRP
+NER
+they-2:O
+
+
+
+
+pay-3
+Text Annotation
+pay-3:pay
+Lemma Annotation
+pay-3:pay
+POS
+pay-3:VBP
+NER
+pay-3:O
+
+
+
+
+breaking-4
+Text Annotation
+breaking-4:breaking
+Lemma Annotation
+breaking-4:break
+POS
+breaking-4:VBG
+NER
+breaking-4:O
+
+
+
+
+law-5
+Text Annotation
+law-5:law
+Lemma Annotation
+law-5:law
+POS
+law-5:NN
+NER
+law-5:O
+
+
+
+
+@HillaryClinton-6
+Text Annotation
+@HillaryClinton-6:@HillaryClinton
+Lemma Annotation
+@HillaryClinton-6:@hillaryclinton
+POS
+@HillaryClinton-6:NN
+NER
+@HillaryClinton-6:O
+
+
+
+
+:-7
+Text Annotation
+:-7::
+Lemma Annotation
+:-7::
+POS
+:-7::
+NER
+:-7:O
+
+
+
+
+44-8
+Text Annotation
+44-8:44
+Lemma Annotation
+44-8:44
+POS
+44-8:CD
+NER
+44-8:DURATION
+
+
+
+
+years-9
+Text Annotation
+years-9:years
+Lemma Annotation
+years-9:year
+POS
+years-9:NNS
+NER
+years-9:DURATION
+
+
+
+
+since-10
+Text Annotation
+since-10:since
+Lemma Annotation
+since-10:since
+POS
+since-10:IN
+NER
+since-10:O
+
+
+
+
+#TitleIX-11
+Text Annotation
+#TitleIX-11:#TitleIX
+Lemma Annotation
+#TitleIX-11:#titleix
+POS
+#TitleIX-11:NN
+NER
+#TitleIX-11:O
+
+
+
+
+passed-12
+Text Annotation
+passed-12:passed
+Lemma Annotation
+passed-12:pass
+POS
+passed-12:VBD
+NER
+passed-12:O
+
+
+
+
+,-13
+Text Annotation
+,-13:,
+Lemma Annotation
+,-13:,
+POS
+,-13:,
+NER
+,-13:O
+
+
+
+
+truer-14
+Text Annotation
+truer-14:truer
+Lemma Annotation
+truer-14:truer
+POS
+truer-14:JJR
+NER
+truer-14:O
+
+
+
+
+than-15
+Text Annotation
+than-15:than
+Lemma Annotation
+than-15:than
+POS
+than-15:IN
+NER
+than-15:O
+
+
+
+
+ever-16
+Text Annotation
+ever-16:ever
+Lemma Annotation
+ever-16:ever
+POS
+ever-16:RB
+NER
+ever-16:O
+
+
+
+
+:-17
+Text Annotation
+:-17::
+Lemma Annotation
+:-17::
+POS
+:-17::
+NER
+:-17:O
+
+
+
+
+All-18
+Text Annotation
+All-18:All
+Lemma Annotation
+All-18:all
+POS
+All-18:DT
+NER
+All-18:O
+
+
+
+
+stude-19
+Text Annotation
+stude-19:stude
+Lemma Annotation
+stude-19:stude
+POS
+stude-19:NN
+NER
+stude-19:O
+
+
+
+
+*-20
+Text Annotation
+*-20:*
+Lemma Annotation
+*-20:*
+POS
+*-20:SYM
+NER
+*-20:O
+
+
+
+
+nts-21
+Text Annotation
+nts-21:nts
+Lemma Annotation
+nts-21:nt
+POS
+nts-21:NNS
+NER
+nts-21:O
+
+
+
+
+deserve-22
+Text Annotation
+deserve-22:deserve
+Lemma Annotation
+deserve-22:deserve
+POS
+deserve-22:VBP
+NER
+deserve-22:O
+
+
+
+
+equal-23
+Text Annotation
+equal-23:equal
+Lemma Annotation
+equal-23:equal
+POS
+equal-23:JJ
+NER
+equal-23:O
+
+
+
+
+opportunity-24
+Text Annotation
+opportunity-24:opportunity
+Lemma Annotation
+opportunity-24:opportunity
+POS
+opportunity-24:NN
+NER
+opportunity-24:O
+
+
+
+
+,-25
+Text Annotation
+,-25:,
+Lemma Annotation
+,-25:,
+POS
+,-25:,
+NER
+,-25:O
+
+
+
+
+no-26
+Text Annotation
+no-26:no
+Lemma Annotation
+no-26:no
+POS
+no-26:DT
+NER
+no-26:O
+
+
+
+
+matter-27
+Text Annotation
+matter-27:matter
+Lemma Annotation
+matter-27:matter
+POS
+matter-27:NN
+NER
+matter-27:O
+
+
+
+
+their-28
+Text Annotation
+their-28:their
+Lemma Annotation
+their-28:they
+POS
+their-28:PRP$
+NER
+their-28:O
+
+
+
+
+gender-29
+Text Annotation
+gender-29:gender
+Lemma Annotation
+gender-29:gender
+POS
+gender-29:NN
+NER
+gender-29:O
+
+
+
+
+.-30
+Text Annotation
+.-30:.
+Lemma Annotation
+.-30:.
+POS
+.-30:.
+NER
+.-30:O
+
+
+
+(ROOT (S (NP (NP (NN Price)) (SBAR (S (NP (PRP they)) (VP (VBP pay) (S (VP (VBG breaking) (NP (NP (NN law) (NN @HillaryClinton)) (: :) (NP (NP (CD 44) (NNS years)) (PP (IN since) (NP (NN #TitleIX))))))))))) (VP (VBD passed) (, ,) (S (ADJP (ADJP (JJR truer)) (PP (IN than) (NP (NP (RB ever)) (: :) (NP (DT All) (NN stude))))) (SBAR (X (SYM *)) (S (NP (NNS nts)) (VP (VBP deserve) (NP (NP (JJ equal) (NN opportunity)) (, ,) (NP (NP (DT no) (NN matter)) (NP (PRP$ their) (NN gender))))))))) (. .)))
+-> passed/VBD (root)
+  -> Price/NN (nsubj)
+    -> pay/VBP (acl:relcl)
+      -> they/PRP (nsubj)
+      -> breaking/VBG (xcomp)
+        -> @HillaryClinton/NN (dobj)
+          -> law/NN (compound)
+          -> :/: (punct)
+          -> years/NNS (dep)
+            -> 44/CD (nummod)
+            -> #TitleIX/NN (nmod:since)
+              -> since/IN (case)
+  -> ,/, (punct)
+  -> deserve/VBP (xcomp)
+    -> truer/JJR (dep)
+      -> ever/RB (nmod:than)
+        -> than/IN (case)
+        -> :/: (punct)
+        -> stude/NN (dep)
+          -> All/DT (det)
+    -> */SYM (dep)
+    -> nts/NNS (nsubj)
+    -> opportunity/NN (dobj)
+      -> equal/JJ (amod)
+      -> ,/, (punct)
+      -> matter/NN (appos)
+        -> no/DT (neg)
+        -> gender/NN (dep)
+          -> their/PRP$ (nmod:poss)
+  -> ./. (punct)
+
+[CHAIN1-["@realDonaldTrump" in sentence 1], CHAIN4-["the most corrupt person ever to seek the presidency of the United States" in sentence 1, "the presidency of the United States" in sentence 1, "the United States" in sentence 1, "I" in sentence 6, "US" in sentence 6, "I" in sentence 11], CHAIN5-["@realDonaldTrump Man" in sentence 2, "a god damn idiot with no business even being a janitor at the White House" in sentence 2], CHAIN6-["you" in sentence 2], CHAIN8-["no business" in sentence 2], CHAIN9-["a janitor at the White House" in sentence 2], CHAIN10-["the White House" in sentence 2], CHAIN11-["Scotland" in sentence 3, "Scotland liking you more than Trump does not mean Scotland" in sentence 9, "Scotland" in sentence 9], CHAIN12-["#moron @realDonaldTrump @Jolena3 So many anti-Americans trolling our next President 's tweets ." in sentence 4], CHAIN13-["many anti-Americans" in sentence 4], CHAIN14-["our next President 's tweets" in sentence 4, "their" in sentence 5], CHAIN15-["our next President" in sentence 4], CHAIN16-["our" in sentence 4, "we" in sentence 7, "our" in sentence 9], CHAIN17-["You" in sentence 5], CHAIN18-["their nervousness rising" in sentence 5], CHAIN22-["@realDonaldTrump I" in sentence 6], CHAIN23-["the cartels" in sentence 6], CHAIN24-["ahold of you" in sentence 6], CHAIN25-["you" in sentence 6], CHAIN26-["the US elections" in sentence 6], CHAIN27-["You" in sentence 7], CHAIN28-["far the most arrogant ignorant evil son of a bitch @realDonaldTrump @Jolena3" in sentence 7], CHAIN29-["a bitch @realDonaldTrump @Jolena3" in sentence 7], CHAIN31-["a President Trump working for the common man not Wall Street" in sentence 7, "Trump" in sentence 9], CHAIN32-["the common man" in sentence 7], CHAIN33-["Wall Street" in sentence 7], CHAIN34-["AMERICA GREAT AGSIN" in sentence 8], CHAIN37-["@HillaryClinton" in sentence 9, "@HillaryClinton They should have thought of that before they crossed into our Country with no Passport or Visa" in sentence 9], CHAIN38-["this" in sentence 9, "They" in sentence 9, "that" in sentence 9, "they" in sentence 9, "they" in sentence 10], CHAIN40-["you" in sentence 9], CHAIN41-["you" in sentence 9], CHAIN46-["our Country" in sentence 9], CHAIN48-["no Passport or Visa" in sentence 9], CHAIN49-["no Passport" in sentence 9], CHAIN50-["Visa" in sentence 9], CHAIN51-["Price they pay breaking law @HillaryClinton : 44 years since #TitleIX" in sentence 10], CHAIN53-["law @HillaryClinton : 44 years since #TitleIX" in sentence 10], CHAIN54-["44 years since #TitleIX" in sentence 10], CHAIN55-["ever : All stude" in sentence 10], CHAIN56-["nts" in sentence 10, "their" in sentence 10], CHAIN57-["no matter their gender" in sentence 10], CHAIN58-["their gender" in sentence 10], CHAIN60-["@HillaryClinton Plz" in sentence 11], CHAIN61-["BREXIT & TAKIN R COUNTRY BAC has NOTH 2DO WITH lil hands supporters" in sentence 11], CHAIN62-["COUNTRY BAC" in sentence 11], CHAIN63-["NOTH 2DO" in sentence 11], CHAIN64-["lil hands supporters" in sentence 11], CHAIN65-["DEMS TAKIN R COUNTRY BAC FROM REPUBS @HillaryClinton I hear one of your super deligates is going to prison" in sentence 11], CHAIN66-["REPUBS @HillaryClinton I hear one of your super deligates" in sentence 11], CHAIN68-["one of your super deligates" in sentence 11], CHAIN69-["BREXIT" in sentence 11], CHAIN70-["TAKIN" in sentence 11], CHAIN71-["you" in sentence 12]]
+
+@HillaryClinton-1
+Text Annotation
+@HillaryClinton-1:@HillaryClinton
+Lemma Annotation
+@HillaryClinton-1:@hillaryclinton
+POS
+@HillaryClinton-1:NN
+NER
+@HillaryClinton-1:O
+
+
+
+
+Plz-2
+Text Annotation
+Plz-2:Plz
+Lemma Annotation
+Plz-2:plz
+POS
+Plz-2:NN
+NER
+Plz-2:O
+
+
+
+
+tell-3
+Text Annotation
+tell-3:tell
+Lemma Annotation
+tell-3:tell
+POS
+tell-3:VBP
+NER
+tell-3:O
+
+
+
+
+that-4
+Text Annotation
+that-4:that
+Lemma Annotation
+that-4:that
+POS
+that-4:IN
+NER
+that-4:O
+
+
+
+
+BREXIT-5
+Text Annotation
+BREXIT-5:BREXIT
+Lemma Annotation
+BREXIT-5:BREXIT
+POS
+BREXIT-5:NNP
+NER
+BREXIT-5:O
+
+
+
+
+&-6
+Text Annotation
+&-6:&
+Lemma Annotation
+&-6:&
+POS
+&-6:CC
+NER
+&-6:O
+
+
+
+
+TAKIN-7
+Text Annotation
+TAKIN-7:TAKIN
+Lemma Annotation
+TAKIN-7:TAKIN
+POS
+TAKIN-7:NNP
+NER
+TAKIN-7:O
+
+
+
+
+R-8
+Text Annotation
+R-8:R
+Lemma Annotation
+R-8:R
+POS
+R-8:NNP
+NER
+R-8:O
+
+
+
+
+COUNTRY-9
+Text Annotation
+COUNTRY-9:COUNTRY
+Lemma Annotation
+COUNTRY-9:COUNTRY
+POS
+COUNTRY-9:NNP
+NER
+COUNTRY-9:O
+
+
+
+
+BAC-10
+Text Annotation
+BAC-10:BAC
+Lemma Annotation
+BAC-10:BAC
+POS
+BAC-10:NNP
+NER
+BAC-10:O
+
+
+
+
+has-11
+Text Annotation
+has-11:has
+Lemma Annotation
+has-11:have
+POS
+has-11:VBZ
+NER
+has-11:O
+
+
+
+
+NOTH-12
+Text Annotation
+NOTH-12:NOTH
+Lemma Annotation
+NOTH-12:NOTH
+POS
+NOTH-12:NNP
+NER
+NOTH-12:O
+
+
+
+
+2DO-13
+Text Annotation
+2DO-13:2DO
+Lemma Annotation
+2DO-13:2DO
+POS
+2DO-13:NNP
+NER
+2DO-13:O
+
+
+
+
+WITH-14
+Text Annotation
+WITH-14:WITH
+Lemma Annotation
+WITH-14:with
+POS
+WITH-14:IN
+NER
+WITH-14:O
+
+
+
+
+lil-15
+Text Annotation
+lil-15:lil
+Lemma Annotation
+lil-15:lil
+POS
+lil-15:NN
+NER
+lil-15:O
+
+
+
+
+hands-16
+Text Annotation
+hands-16:hands
+Lemma Annotation
+hands-16:hand
+POS
+hands-16:NNS
+NER
+hands-16:O
+
+
+
+
+supporters-17
+Text Annotation
+supporters-17:supporters
+Lemma Annotation
+supporters-17:supporter
+POS
+supporters-17:NNS
+NER
+supporters-17:O
+
+
+
+
+BUT-18
+Text Annotation
+BUT-18:BUT
+Lemma Annotation
+BUT-18:but
+POS
+BUT-18:VBP
+NER
+BUT-18:O
+
+
+
+
+DEMS-19
+Text Annotation
+DEMS-19:DEMS
+Lemma Annotation
+DEMS-19:dem
+POS
+DEMS-19:NNS
+NER
+DEMS-19:O
+
+
+
+
+TAKIN-20
+Text Annotation
+TAKIN-20:TAKIN
+Lemma Annotation
+TAKIN-20:takin
+POS
+TAKIN-20:JJ
+NER
+TAKIN-20:O
+
+
+
+
+R-21
+Text Annotation
+R-21:R
+Lemma Annotation
+R-21:r
+POS
+R-21:NN
+NER
+R-21:O
+
+
+
+
+COUNTRY-22
+Text Annotation
+COUNTRY-22:COUNTRY
+Lemma Annotation
+COUNTRY-22:country
+POS
+COUNTRY-22:NN
+NER
+COUNTRY-22:O
+
+
+
+
+BAC-23
+Text Annotation
+BAC-23:BAC
+Lemma Annotation
+BAC-23:bac
+POS
+BAC-23:NN
+NER
+BAC-23:O
+
+
+
+
+FROM-24
+Text Annotation
+FROM-24:FROM
+Lemma Annotation
+FROM-24:from
+POS
+FROM-24:IN
+NER
+FROM-24:O
+
+
+
+
+REPUBS-25
+Text Annotation
+REPUBS-25:REPUBS
+Lemma Annotation
+REPUBS-25:repub
+POS
+REPUBS-25:NNS
+NER
+REPUBS-25:O
+
+
+
+
+@HillaryClinton-26
+Text Annotation
+@HillaryClinton-26:@HillaryClinton
+Lemma Annotation
+@HillaryClinton-26:@hillaryclinton
+POS
+@HillaryClinton-26:NN
+NER
+@HillaryClinton-26:O
+
+
+
+
+I-27
+Text Annotation
+I-27:I
+Lemma Annotation
+I-27:I
+POS
+I-27:PRP
+NER
+I-27:O
+
+
+
+
+hear-28
+Text Annotation
+hear-28:hear
+Lemma Annotation
+hear-28:hear
+POS
+hear-28:VBP
+NER
+hear-28:O
+
+
+
+
+one-29
+Text Annotation
+one-29:one
+Lemma Annotation
+one-29:one
+POS
+one-29:CD
+NER
+one-29:NUMBER
+
+
+
+
+of-30
+Text Annotation
+of-30:of
+Lemma Annotation
+of-30:of
+POS
+of-30:IN
+NER
+of-30:O
+
+
+
+
+your-31
+Text Annotation
+your-31:your
+Lemma Annotation
+your-31:you
+POS
+your-31:PRP$
+NER
+your-31:O
+
+
+
+
+super-32
+Text Annotation
+super-32:super
+Lemma Annotation
+super-32:super
+POS
+super-32:JJ
+NER
+super-32:O
+
+
+
+
+deligates-33
+Text Annotation
+deligates-33:deligates
+Lemma Annotation
+deligates-33:deligate
+POS
+deligates-33:NNS
+NER
+deligates-33:O
+
+
+
+
+is-34
+Text Annotation
+is-34:is
+Lemma Annotation
+is-34:be
+POS
+is-34:VBZ
+NER
+is-34:O
+
+
+
+
+going-35
+Text Annotation
+going-35:going
+Lemma Annotation
+going-35:go
+POS
+going-35:VBG
+NER
+going-35:O
+
+
+
+
+to-36
+Text Annotation
+to-36:to
+Lemma Annotation
+to-36:to
+POS
+to-36:TO
+NER
+to-36:O
+
+
+
+
+prison-37
+Text Annotation
+prison-37:prison
+Lemma Annotation
+prison-37:prison
+POS
+prison-37:NN
+NER
+prison-37:O
+
+
+
+
+...-38
+Text Annotation
+...-38:...
+Lemma Annotation
+...-38:...
+POS
+...-38::
+NER
+...-38:O
+
+
+
+
+.-39
+Text Annotation
+.-39:.
+Lemma Annotation
+.-39:.
+POS
+.-39:.
+NER
+.-39:O
+
+
+
+(ROOT (S (NP (NN @HillaryClinton) (NN Plz)) (VP (VBP tell) (SBAR (IN that) (S (NP (NP (NNP BREXIT) (CC &) (NNP TAKIN) (NNP R)) (SBAR (S (NP (NNP COUNTRY) (NNP BAC)) (VP (VBZ has) (NP (NNP NOTH) (NNP 2DO)) (PP (IN WITH) (NP (NN lil) (NNS hands) (NNS supporters))))))) (VP (VBP BUT) (NP (NP (NNS DEMS)) (SBAR (S (NP (NP (JJ TAKIN) (NN R) (NN COUNTRY) (NN BAC)) (PP (IN FROM) (NP (NP (NNS REPUBS) (NN @HillaryClinton)) (SBAR (S (NP (PRP I)) (VP (VBP hear) (NP (NP (CD one)) (PP (IN of) (NP (PRP$ your) (JJ super) (NNS deligates)))))))))) (VP (VBZ is) (VP (VBG going) (PP (TO to) (NP (NN prison)))))))))))) (: ...) (. .)))
+-> tell/VBP (root)
+  -> Plz/NN (nsubj)
+    -> @HillaryClinton/NN (compound)
+  -> BUT/VBP (ccomp)
+    -> that/IN (mark)
+    -> R/NNP (nsubj)
+      -> BREXIT/NNP (compound)
+        -> &/CC (cc)
+        -> TAKIN/NNP (conj:&)
+      -> TAKIN/NNP (compound)
+      -> has/VBZ (acl:relcl)
+        -> BAC/NNP (nsubj)
+          -> COUNTRY/NNP (compound)
+        -> 2DO/NNP (dobj)
+          -> NOTH/NNP (compound)
+        -> supporters/NNS (nmod:with)
+          -> WITH/IN (case)
+          -> lil/NN (compound)
+          -> hands/NNS (compound)
+    -> DEMS/NNS (dobj)
+      -> going/VBG (acl:relcl)
+        -> BAC/NN (nsubj)
+          -> TAKIN/JJ (amod)
+          -> R/NN (compound)
+          -> COUNTRY/NN (compound)
+          -> @HillaryClinton/NN (nmod:from)
+            -> FROM/IN (case)
+            -> REPUBS/NNS (compound)
+            -> hear/VBP (acl:relcl)
+              -> I/PRP (nsubj)
+              -> one/CD (dobj)
+                -> deligates/NNS (nmod:of)
+                  -> of/IN (case)
+                  -> your/PRP$ (nmod:poss)
+                  -> super/JJ (amod)
+        -> is/VBZ (aux)
+        -> prison/NN (nmod:to)
+          -> to/TO (case)
+  -> .../: (punct)
+  -> ./. (punct)
+
+[CHAIN1-["@realDonaldTrump" in sentence 1], CHAIN4-["the most corrupt person ever to seek the presidency of the United States" in sentence 1, "the presidency of the United States" in sentence 1, "the United States" in sentence 1, "I" in sentence 6, "US" in sentence 6, "I" in sentence 11], CHAIN5-["@realDonaldTrump Man" in sentence 2, "a god damn idiot with no business even being a janitor at the White House" in sentence 2], CHAIN6-["you" in sentence 2], CHAIN8-["no business" in sentence 2], CHAIN9-["a janitor at the White House" in sentence 2], CHAIN10-["the White House" in sentence 2], CHAIN11-["Scotland" in sentence 3, "Scotland liking you more than Trump does not mean Scotland" in sentence 9, "Scotland" in sentence 9], CHAIN12-["#moron @realDonaldTrump @Jolena3 So many anti-Americans trolling our next President 's tweets ." in sentence 4], CHAIN13-["many anti-Americans" in sentence 4], CHAIN14-["our next President 's tweets" in sentence 4, "their" in sentence 5], CHAIN15-["our next President" in sentence 4], CHAIN16-["our" in sentence 4, "we" in sentence 7, "our" in sentence 9], CHAIN17-["You" in sentence 5], CHAIN18-["their nervousness rising" in sentence 5], CHAIN22-["@realDonaldTrump I" in sentence 6], CHAIN23-["the cartels" in sentence 6], CHAIN24-["ahold of you" in sentence 6], CHAIN25-["you" in sentence 6], CHAIN26-["the US elections" in sentence 6], CHAIN27-["You" in sentence 7], CHAIN28-["far the most arrogant ignorant evil son of a bitch @realDonaldTrump @Jolena3" in sentence 7], CHAIN29-["a bitch @realDonaldTrump @Jolena3" in sentence 7], CHAIN31-["a President Trump working for the common man not Wall Street" in sentence 7, "Trump" in sentence 9], CHAIN32-["the common man" in sentence 7], CHAIN33-["Wall Street" in sentence 7], CHAIN34-["AMERICA GREAT AGSIN" in sentence 8], CHAIN37-["@HillaryClinton" in sentence 9, "@HillaryClinton They should have thought of that before they crossed into our Country with no Passport or Visa" in sentence 9], CHAIN38-["this" in sentence 9, "They" in sentence 9, "that" in sentence 9, "they" in sentence 9, "they" in sentence 10], CHAIN40-["you" in sentence 9], CHAIN41-["you" in sentence 9], CHAIN46-["our Country" in sentence 9], CHAIN48-["no Passport or Visa" in sentence 9], CHAIN49-["no Passport" in sentence 9], CHAIN50-["Visa" in sentence 9], CHAIN51-["Price they pay breaking law @HillaryClinton : 44 years since #TitleIX" in sentence 10], CHAIN53-["law @HillaryClinton : 44 years since #TitleIX" in sentence 10], CHAIN54-["44 years since #TitleIX" in sentence 10], CHAIN55-["ever : All stude" in sentence 10], CHAIN56-["nts" in sentence 10, "their" in sentence 10], CHAIN57-["no matter their gender" in sentence 10], CHAIN58-["their gender" in sentence 10], CHAIN60-["@HillaryClinton Plz" in sentence 11], CHAIN61-["BREXIT & TAKIN R COUNTRY BAC has NOTH 2DO WITH lil hands supporters" in sentence 11], CHAIN62-["COUNTRY BAC" in sentence 11], CHAIN63-["NOTH 2DO" in sentence 11], CHAIN64-["lil hands supporters" in sentence 11], CHAIN65-["DEMS TAKIN R COUNTRY BAC FROM REPUBS @HillaryClinton I hear one of your super deligates is going to prison" in sentence 11], CHAIN66-["REPUBS @HillaryClinton I hear one of your super deligates" in sentence 11], CHAIN68-["one of your super deligates" in sentence 11], CHAIN69-["BREXIT" in sentence 11], CHAIN70-["TAKIN" in sentence 11], CHAIN71-["you" in sentence 12]]
+
+you-1
+Text Annotation
+you-1:you
+Lemma Annotation
+you-1:you
+POS
+you-1:PRP
+NER
+you-1:O
+
+
+
+
+'re-2
+Text Annotation
+'re-2:'re
+Lemma Annotation
+'re-2:be
+POS
+'re-2:VBP
+NER
+'re-2:O
+
+
+
+
+next-3
+Text Annotation
+next-3:next
+Lemma Annotation
+next-3:next
+POS
+next-3:JJ
+NER
+next-3:O
+
+
+
+
+!-4
+Text Annotation
+!-4:!
+Lemma Annotation
+!-4:!
+POS
+!-4:.
+NER
+!-4:O
+
+
+
+(ROOT (S (NP (PRP you)) (VP (VBP 're) (ADJP (JJ next))) (. !)))
+-> next/JJ (root)
+  -> you/PRP (nsubj)
+  -> 're/VBP (cop)
+  -> !/. (punct)
+
+[CHAIN1-["@realDonaldTrump" in sentence 1], CHAIN4-["the most corrupt person ever to seek the presidency of the United States" in sentence 1, "the presidency of the United States" in sentence 1, "the United States" in sentence 1, "I" in sentence 6, "US" in sentence 6, "I" in sentence 11], CHAIN5-["@realDonaldTrump Man" in sentence 2, "a god damn idiot with no business even being a janitor at the White House" in sentence 2], CHAIN6-["you" in sentence 2], CHAIN8-["no business" in sentence 2], CHAIN9-["a janitor at the White House" in sentence 2], CHAIN10-["the White House" in sentence 2], CHAIN11-["Scotland" in sentence 3, "Scotland liking you more than Trump does not mean Scotland" in sentence 9, "Scotland" in sentence 9], CHAIN12-["#moron @realDonaldTrump @Jolena3 So many anti-Americans trolling our next President 's tweets ." in sentence 4], CHAIN13-["many anti-Americans" in sentence 4], CHAIN14-["our next President 's tweets" in sentence 4, "their" in sentence 5], CHAIN15-["our next President" in sentence 4], CHAIN16-["our" in sentence 4, "we" in sentence 7, "our" in sentence 9], CHAIN17-["You" in sentence 5], CHAIN18-["their nervousness rising" in sentence 5], CHAIN22-["@realDonaldTrump I" in sentence 6], CHAIN23-["the cartels" in sentence 6], CHAIN24-["ahold of you" in sentence 6], CHAIN25-["you" in sentence 6], CHAIN26-["the US elections" in sentence 6], CHAIN27-["You" in sentence 7], CHAIN28-["far the most arrogant ignorant evil son of a bitch @realDonaldTrump @Jolena3" in sentence 7], CHAIN29-["a bitch @realDonaldTrump @Jolena3" in sentence 7], CHAIN31-["a President Trump working for the common man not Wall Street" in sentence 7, "Trump" in sentence 9], CHAIN32-["the common man" in sentence 7], CHAIN33-["Wall Street" in sentence 7], CHAIN34-["AMERICA GREAT AGSIN" in sentence 8], CHAIN37-["@HillaryClinton" in sentence 9, "@HillaryClinton They should have thought of that before they crossed into our Country with no Passport or Visa" in sentence 9], CHAIN38-["this" in sentence 9, "They" in sentence 9, "that" in sentence 9, "they" in sentence 9, "they" in sentence 10], CHAIN40-["you" in sentence 9], CHAIN41-["you" in sentence 9], CHAIN46-["our Country" in sentence 9], CHAIN48-["no Passport or Visa" in sentence 9], CHAIN49-["no Passport" in sentence 9], CHAIN50-["Visa" in sentence 9], CHAIN51-["Price they pay breaking law @HillaryClinton : 44 years since #TitleIX" in sentence 10], CHAIN53-["law @HillaryClinton : 44 years since #TitleIX" in sentence 10], CHAIN54-["44 years since #TitleIX" in sentence 10], CHAIN55-["ever : All stude" in sentence 10], CHAIN56-["nts" in sentence 10, "their" in sentence 10], CHAIN57-["no matter their gender" in sentence 10], CHAIN58-["their gender" in sentence 10], CHAIN60-["@HillaryClinton Plz" in sentence 11], CHAIN61-["BREXIT & TAKIN R COUNTRY BAC has NOTH 2DO WITH lil hands supporters" in sentence 11], CHAIN62-["COUNTRY BAC" in sentence 11], CHAIN63-["NOTH 2DO" in sentence 11], CHAIN64-["lil hands supporters" in sentence 11], CHAIN65-["DEMS TAKIN R COUNTRY BAC FROM REPUBS @HillaryClinton I hear one of your super deligates is going to prison" in sentence 11], CHAIN66-["REPUBS @HillaryClinton I hear one of your super deligates" in sentence 11], CHAIN68-["one of your super deligates" in sentence 11], CHAIN69-["BREXIT" in sentence 11], CHAIN70-["TAKIN" in sentence 11], CHAIN71-["you" in sentence 12]]
+
+
