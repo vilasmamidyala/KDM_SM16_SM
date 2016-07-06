@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/CS5560-T3-Tutorial3-SourceCode.iml" filepath="$PROJECT_DIR$/.idea/CS5560-T3-Tutorial3-SourceCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Code/SentimentAnalysisCoreNLP/.idea/modules/sentimentanalysiscorenlp.iml" filepath="$PROJECT_DIR$/Code/SentimentAnalysisCoreNLP/.idea/modules/sentimentanalysiscorenlp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Code/SentimentAnalysisCoreNLP/.idea/modules/sentimentanalysiscorenlp-build.iml" filepath="$PROJECT_DIR$/Code/SentimentAnalysisCoreNLP/.idea/modules/sentimentanalysiscorenlp-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Code/Tutorial-3-CoreNLP/.idea/modules/tutorial-3-corenlp.iml" filepath="$PROJECT_DIR$/Code/Tutorial-3-CoreNLP/.idea/modules/tutorial-3-corenlp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Code/Tutorial-3-CoreNLP/.idea/modules/tutorial-3-corenlp-build.iml" filepath="$PROJECT_DIR$/Code/Tutorial-3-CoreNLP/.idea/modules/tutorial-3-corenlp-build.iml" />
+    </modules>
+  </component>
+</project>
