@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" ng-app="myApp" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en" ng-app="myApp" class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Mashup application</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="app.css">
+
+    <style>
+    .body{
+      position: absolute;
+      top: 10px;
+      left: 320px;
+      right: -40px;
+      bottom: -40px;
+      width: auto;
+      height: auto;
+      background-image: url(http://www.psdgraphics.com/file/2015/blue-sparkles-design.jpg);
+      background-size: cover;
+      -webkit-filter: blur(0px);
+      z-index: 0;
+    }
+    .menu input{
+      width: 250px;
+      height: 30px;
+      background: transparent;
+      border: 4px solid rgba(50,0,0,0.6);
+      border-radius: 4px;
+      color: #000fff;
+      font-family: 'Exo', sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      padding: 4px;
+    }
+    .menu button{
+      width: 260px;
+      height: 35px;
+      background:cornflowerblue;
+      border:  4px solid rgba(50,0,0,0.6);
+      cursor: pointer;
+      border-radius: 4px;
+      color: #fff000;
+      font-family: 'Exo', sans-serif;
+      font-size: 16px;
+      font-weight: 600;
+      padding: 6px;
+      margin-top: 10px;
+    }
+    .tblSpan {
+      width: 260px;
+      height: 35px;
+      left: 40px;
+      background: #b8b67e;
+      border:  2px solid rgba(50,0,0,0.6);
+      cursor: pointer;
+      border-radius: 4px;
+      color: #0fffff;
+      font-family: 'Exo', sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+      padding: 2px;
+      margin-top: 10px;
+    }
+  </style>
+
+</head>
+<body class="body">
+
+<div  ng-controller="View1Ctrl" style="top: 200px">
+    <div class="menu" id="div_SearchContainer">
+        <b><h1 align="absolute" style="color: navy">Summerization</h1></b>
+        <input type="text" id="txt_CompName" placeholder="Enter the word "/>
+
+        <button id="btn_getReview" ng-click="getVenues()">Get Summary</button>
+
+    </div>
+    <div id="div_ReviewList" style="display:none;" >
+
+
+        <p ng-model="ReviewWithSentiment">
+
+        <TABLE BORDER=2 CELLPADDING=4> <TR> <TH style="color: aliceblue" COLSPAN=2 BGCOLOR="#445544">Sentiment Analysis From Using Alchemy API </TH> </TR>
+            <TR> <TD>Sentiment of the review</TD> <TD>{{ReviewWithSentiment.sentiment}}</TD> </TR>
+            <TR> <TD>Sentiment Score of the review</TD> <TD>{{ReviewWithSentiment.score}}</TD> </TR>
+            <TR> <TH style="color:cornflowerblue" COLSPAN=2 BGCOLOR="#445553">{{ReviewWithSentiment.reviewText}}</TH> </TR>
+        </TABLE>
+
+
+        </p>
+
+    </div>
+</div>
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+<script src="app.js"></script>
+
+
+</body>
+</html>
