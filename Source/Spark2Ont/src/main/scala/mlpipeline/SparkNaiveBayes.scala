@@ -127,7 +127,7 @@ object SparkNaiveBayes {
     val sqlContext = SQLContext.getOrCreate(sc)
     import sqlContext.implicits._
     val df = sc.wholeTextFiles(paths).map(f => {
-      var ff = f._2.replaceAll("[^a-zA-Z\\s:]", " ")
+      var ff = f._2.replaceAll("[^Url_summary-zA-Z\\s:]", " ")
       ff = ff.replaceAll(":", "")
       // println(ff)
       (f._1, CoreNLP.returnLemma(ff))

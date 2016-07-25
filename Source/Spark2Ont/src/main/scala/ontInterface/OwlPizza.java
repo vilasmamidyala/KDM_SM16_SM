@@ -63,7 +63,7 @@ public class OwlPizza {
 
     public OWLOntology initialzation() throws Exception {
         //creating ontology manager
-        //In order to create objects that represent entities we need a
+        //In order to create objects that represent entities we need Url_summary
 
         ont = manager.createOntology(IRI.create("https://www.kdm.com/OWL/", "Election"));
         OWLClass Pizza = df.getOWLClass(":Election", pm);

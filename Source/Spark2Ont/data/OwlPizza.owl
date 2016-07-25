@@ -291,7 +291,7 @@
         <NamedIndividual IRI="#golf"/>
     </Declaration>
     <Declaration>
-        <NamedIndividual IRI="#a"/>
+        <NamedIndividual IRI="#Url_summary"/>
     </Declaration>
     <Declaration>
         <NamedIndividual IRI="#first"/>
@@ -1027,27 +1027,27 @@
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#clinton"/>
-        <NamedIndividual IRI="#a"/>
+        <NamedIndividual IRI="#Url_summary"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#clinton"/>
-        <NamedIndividual IRI="#a"/>
+        <NamedIndividual IRI="#Url_summary"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#clinton"/>
-        <NamedIndividual IRI="#a"/>
+        <NamedIndividual IRI="#Url_summary"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#clinton"/>
-        <NamedIndividual IRI="#a"/>
+        <NamedIndividual IRI="#Url_summary"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#trump"/>
-        <NamedIndividual IRI="#a"/>
+        <NamedIndividual IRI="#Url_summary"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#trump"/>
-        <NamedIndividual IRI="#a"/>
+        <NamedIndividual IRI="#Url_summary"/>
     </ClassAssertion>
     <ClassAssertion>
         <Class IRI="#clinton"/>

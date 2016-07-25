@@ -87,7 +87,7 @@ object SparkLDAMain {
     import sqlContext.implicits._
 
     val df = sc.textFile(paths).map(f => {
-      var ff = f.replaceAll("[^a-zA-Z\\s:]", " ")
+      var ff = f.replaceAll("[^Url_summary-zA-Z\\s:]", " ")
       ff = ff.replaceAll(":", "")
       // println(ff)
       CoreNLP.returnLemma(ff)
